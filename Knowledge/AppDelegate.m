@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "Multithreading.h"
+#import "RuntimeTest.h"
+#import "UserInfoModel.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +20,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    Multithreading *threading = [[Multithreading alloc] init];
+//    RuntimeTest *runtime = [[RuntimeTest alloc] init];
+    
+    UserInfoModel *infoModel = [[UserInfoModel alloc] init];
+    infoModel.name = @"Lee";
+    infoModel.age = 28;
+    infoModel.mobile = @"18910898751";
+    NSError *error;
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:infoModel];
+    
+    [[NSUserDefaults standardUserDefaults] setObject:data forKey:@"model"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    NSData *cacheData = [[NSUserDefaults standardUserDefaults] objectForKey:@"model"];
+    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
+    
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

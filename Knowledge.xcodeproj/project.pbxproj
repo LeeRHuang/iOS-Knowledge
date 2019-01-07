@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD38B5FD21D239B7008FEBAE /* Multithreading.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FC21D239B7008FEBAE /* Multithreading.m */; };
+		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
+		CD38B60321D23A50008FEBAE /* LockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60221D23A50008FEBAE /* LockTest.m */; };
+		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
+		CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */; };
+		CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30521E342A700A7FCFD /* UserInfoModel.m */; };
+		CD7CD30C21E360FD00A7FCFD /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30B21E360FD00A7FCFD /* NSObject+Extension.m */; };
 		CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD82C43221ABA05600B3BAA0 /* AppDelegate.m */; };
 		CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD82C43521ABA05600B3BAA0 /* ViewController.m */; };
 		CD82C43921ABA05600B3BAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD82C43721ABA05600B3BAA0 /* Main.storyboard */; };
 		CD82C43B21ABA05A00B3BAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD82C43A21ABA05A00B3BAA0 /* Assets.xcassets */; };
 		CD82C43E21ABA05A00B3BAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD82C43C21ABA05A00B3BAA0 /* LaunchScreen.storyboard */; };
 		CD82C44121ABA05A00B3BAA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD82C44021ABA05A00B3BAA0 /* main.m */; };
+		CD82C44821AD186600B3BAA0 /* appName.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD82C44721AD186600B3BAA0 /* appName.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD38B5FB21D239B7008FEBAE /* Multithreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multithreading.h; sourceTree = "<group>"; };
+		CD38B5FC21D239B7008FEBAE /* Multithreading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multithreading.m; sourceTree = "<group>"; };
+		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
+		CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
+		CD38B60121D23A50008FEBAE /* LockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTest.h; sourceTree = "<group>"; };
+		CD38B60221D23A50008FEBAE /* LockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTest.m; sourceTree = "<group>"; };
+		CD38B60521D23B7E008FEBAE /* Personal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
+		CD38B60621D23B7E008FEBAE /* Personal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Personal.m; sourceTree = "<group>"; };
+		CD38B60821D241A9008FEBAE /* UIImage+KZ_Load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KZ_Load.h"; sourceTree = "<group>"; };
+		CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KZ_Load.m"; sourceTree = "<group>"; };
+		CD7CD30421E342A700A7FCFD /* UserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		CD7CD30521E342A700A7FCFD /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		CD7CD30A21E360FD00A7FCFD /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		CD7CD30B21E360FD00A7FCFD /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 		CD82C42E21ABA05600B3BAA0 /* Knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD82C43121ABA05600B3BAA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD82C43221ABA05600B3BAA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +48,7 @@
 		CD82C43D21ABA05A00B3BAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD82C43F21ABA05A00B3BAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD82C44021ABA05A00B3BAA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD82C44721AD186600B3BAA0 /* appName.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = appName.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD38B60421D23AB7008FEBAE /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */,
+				CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */,
+				CD38B60521D23B7E008FEBAE /* Personal.h */,
+				CD38B60621D23B7E008FEBAE /* Personal.m */,
+				CD38B60821D241A9008FEBAE /* UIImage+KZ_Load.h */,
+				CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */,
+				CD7CD30421E342A700A7FCFD /* UserInfoModel.h */,
+				CD7CD30521E342A700A7FCFD /* UserInfoModel.m */,
+				CD7CD30A21E360FD00A7FCFD /* NSObject+Extension.h */,
+				CD7CD30B21E360FD00A7FCFD /* NSObject+Extension.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
 		CD82C42521ABA05600B3BAA0 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +98,20 @@
 		CD82C43021ABA05600B3BAA0 /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				CD38B60421D23AB7008FEBAE /* Runtime */,
 				CD82C43121ABA05600B3BAA0 /* AppDelegate.h */,
 				CD82C43221ABA05600B3BAA0 /* AppDelegate.m */,
 				CD82C43421ABA05600B3BAA0 /* ViewController.h */,
 				CD82C43521ABA05600B3BAA0 /* ViewController.m */,
+				CD38B5FB21D239B7008FEBAE /* Multithreading.h */,
+				CD38B5FC21D239B7008FEBAE /* Multithreading.m */,
+				CD38B60121D23A50008FEBAE /* LockTest.h */,
+				CD38B60221D23A50008FEBAE /* LockTest.m */,
 				CD82C43721ABA05600B3BAA0 /* Main.storyboard */,
 				CD82C43A21ABA05A00B3BAA0 /* Assets.xcassets */,
 				CD82C43C21ABA05A00B3BAA0 /* LaunchScreen.storyboard */,
 				CD82C43F21ABA05A00B3BAA0 /* Info.plist */,
+				CD82C44721AD186600B3BAA0 /* appName.plist */,
 				CD82C44021ABA05A00B3BAA0 /* main.m */,
 			);
 			path = Knowledge;
@@ -129,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD82C43E21ABA05A00B3BAA0 /* LaunchScreen.storyboard in Resources */,
+				CD82C44821AD186600B3BAA0 /* appName.plist in Resources */,
 				CD82C43B21ABA05A00B3BAA0 /* Assets.xcassets in Resources */,
 				CD82C43921ABA05600B3BAA0 /* Main.storyboard in Resources */,
 			);
@@ -141,8 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD38B5FD21D239B7008FEBAE /* Multithreading.m in Sources */,
+				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
+				CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */,
+				CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */,
 				CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */,
+				CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */,
+				CD7CD30C21E360FD00A7FCFD /* NSObject+Extension.m in Sources */,
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
+				CD38B60321D23A50008FEBAE /* LockTest.m in Sources */,
 				CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,15 +337,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9R8U88B3Y5;
 				INFOPLIST_FILE = Knowledge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PPD.Knowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd9e1d8d-6248-4efd-8612-6ee7813b8779";
+				PROVISIONING_PROFILE_SPECIFIER = pluosi_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,15 +357,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9R8U88B3Y5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Knowledge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PPD.Knowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
