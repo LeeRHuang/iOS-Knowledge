@@ -1,8 +1,8 @@
 //
-//  NSObject+Extension.h
+//  TFBaseModel.h
 //  Knowledge
 //
-//  Created by Lee on 2019/1/7.
+//  Created by Lee on 2019/1/8.
 //  Copyright © 2019年 PPD. All rights reserved.
 //
 
@@ -10,10 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (Extension)
+@interface TFBaseModel : NSObject<NSCoding>
 
 - (void)encode:(NSCoder *)aDecoder;
 - (void)decode:(NSCoder *)aCoder;
+- (NSArray *)ignoredNames;
 
 @end
 

@@ -13,7 +13,7 @@
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
 		CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */; };
 		CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30521E342A700A7FCFD /* UserInfoModel.m */; };
-		CD7CD30C21E360FD00A7FCFD /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30B21E360FD00A7FCFD /* NSObject+Extension.m */; };
+		CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30E21E43A3D00A7FCFD /* TFBaseModel.m */; };
 		CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD82C43221ABA05600B3BAA0 /* AppDelegate.m */; };
 		CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD82C43521ABA05600B3BAA0 /* ViewController.m */; };
 		CD82C43921ABA05600B3BAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD82C43721ABA05600B3BAA0 /* Main.storyboard */; };
@@ -36,8 +36,8 @@
 		CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KZ_Load.m"; sourceTree = "<group>"; };
 		CD7CD30421E342A700A7FCFD /* UserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
 		CD7CD30521E342A700A7FCFD /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
-		CD7CD30A21E360FD00A7FCFD /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
-		CD7CD30B21E360FD00A7FCFD /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		CD7CD30D21E43A3D00A7FCFD /* TFBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFBaseModel.h; sourceTree = "<group>"; };
+		CD7CD30E21E43A3D00A7FCFD /* TFBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFBaseModel.m; sourceTree = "<group>"; };
 		CD82C42E21ABA05600B3BAA0 /* Knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD82C43121ABA05600B3BAA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD82C43221ABA05600B3BAA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 				CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */,
 				CD7CD30421E342A700A7FCFD /* UserInfoModel.h */,
 				CD7CD30521E342A700A7FCFD /* UserInfoModel.m */,
-				CD7CD30A21E360FD00A7FCFD /* NSObject+Extension.h */,
-				CD7CD30B21E360FD00A7FCFD /* NSObject+Extension.m */,
+				CD7CD30D21E43A3D00A7FCFD /* TFBaseModel.h */,
+				CD7CD30E21E43A3D00A7FCFD /* TFBaseModel.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
 				CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */,
 				CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */,
+				CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */,
 				CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */,
 				CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */,
-				CD7CD30C21E360FD00A7FCFD /* NSObject+Extension.m in Sources */,
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
 				CD38B60321D23A50008FEBAE /* LockTest.m in Sources */,
 				CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */,

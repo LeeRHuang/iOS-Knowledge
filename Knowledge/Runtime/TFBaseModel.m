@@ -1,18 +1,30 @@
 //
-//  NSObject+Extension.m
+//  TFBaseModel.m
 //  Knowledge
 //
-//  Created by Lee on 2019/1/7.
+//  Created by Lee on 2019/1/8.
 //  Copyright © 2019年 PPD. All rights reserved.
 //
 
-#import "NSObject+Extension.h"
+#import "TFBaseModel.h"
 #import <objc/runtime.h>
 
-@implementation NSObject (Extension)
+@implementation TFBaseModel
 
-- (NSArray *)ignoredNmaes {
++ (NSArray *)ignoredNames {
     return nil;
+}
+
+// 在系统方法内来调用我们的方法
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        [self decode:aDecoder];
+    }
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+    [self encode:aCoder];
 }
 
 - (void)encode:(NSCoder *)aDecoder {
@@ -23,8 +35,15 @@
         for (int i = 0;i < outCounts; i++) {
             Ivar ivar = ivars[i];
             NSString *key = [NSString stringWithUTF8String:ivar_getName(ivar)];
-            if ([self respondsToSelector:@selector(ignoredNmaes)]) {
-                if ([[self ignoredNmaes] containsObject:key]) {
+            
+            if ([key hasPrefix:@"__"]) {
+                continue;
+            }
+            if ([key hasPrefix:@"_"]) {
+                key = [key stringByReplacingOccurrencesOfString:@"_" withString:@""];
+            }
+            if ([self respondsToSelector:@selector(ignoredNames)]) {
+                if ([[self ignoredNames] containsObject:key]) {
                     continue;
                 }
             }
@@ -44,8 +63,14 @@
         for (int i = 0;i < outCounts; i++) {
             Ivar ivar = ivars[i];
             NSString *key = [NSString stringWithUTF8String:ivar_getName(ivar)];
-            if ([self respondsToSelector:@selector(ignoredNmaes)]) {
-                if ([[self ignoredNmaes] containsObject:key]) {
+            if ([key hasPrefix:@"__"]) {
+                continue;
+            }
+            if ([key hasPrefix:@"_"]) {
+                key = [key stringByReplacingOccurrencesOfString:@"_" withString:@""];
+            }
+            if ([self respondsToSelector:@selector(ignoredNames)]) {
+                if ([[self ignoredNames] containsObject:key]) {
                     continue;
                 }
             }

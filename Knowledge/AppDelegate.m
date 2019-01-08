@@ -27,6 +27,7 @@
     infoModel.name = @"Lee";
     infoModel.age = 28;
     infoModel.mobile = @"18910898751";
+    infoModel.gennder = @"男";
     NSError *error;
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:infoModel];
     
