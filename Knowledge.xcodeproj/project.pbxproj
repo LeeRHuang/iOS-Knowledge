@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD38B5FD21D239B7008FEBAE /* Multithreading.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FC21D239B7008FEBAE /* Multithreading.m */; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
-		CD38B60321D23A50008FEBAE /* LockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60221D23A50008FEBAE /* LockTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
 		CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */; };
+		CD6895FF2229613F00AE5169 /* KVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6895F62229613F00AE5169 /* KVOTest.m */; };
+		CD6896002229613F00AE5169 /* NSKVONotifying_KVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6895F72229613F00AE5169 /* NSKVONotifying_KVOTest.m */; };
+		CD6896012229613F00AE5169 /* LockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6895FB2229613F00AE5169 /* LockTest.m */; };
+		CD6896022229613F00AE5169 /* Multithreading.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6895FE2229613F00AE5169 /* Multithreading.m */; };
+		CD6896072229614700AE5169 /* MessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6896032229614700AE5169 /* MessageForwarding.m */; };
+		CD6896082229614700AE5169 /* MessageTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6896052229614700AE5169 /* MessageTarget.m */; };
 		CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30521E342A700A7FCFD /* UserInfoModel.m */; };
 		CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CD30E21E43A3D00A7FCFD /* TFBaseModel.m */; };
 		CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD82C43221ABA05600B3BAA0 /* AppDelegate.m */; };
@@ -24,16 +28,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD38B5FB21D239B7008FEBAE /* Multithreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multithreading.h; sourceTree = "<group>"; };
-		CD38B5FC21D239B7008FEBAE /* Multithreading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multithreading.m; sourceTree = "<group>"; };
 		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
 		CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
-		CD38B60121D23A50008FEBAE /* LockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTest.h; sourceTree = "<group>"; };
-		CD38B60221D23A50008FEBAE /* LockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTest.m; sourceTree = "<group>"; };
 		CD38B60521D23B7E008FEBAE /* Personal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
 		CD38B60621D23B7E008FEBAE /* Personal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Personal.m; sourceTree = "<group>"; };
 		CD38B60821D241A9008FEBAE /* UIImage+KZ_Load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KZ_Load.h"; sourceTree = "<group>"; };
 		CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KZ_Load.m"; sourceTree = "<group>"; };
+		CD6895F52229613F00AE5169 /* NSKVONotifying_KVOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_KVOTest.h; sourceTree = "<group>"; };
+		CD6895F62229613F00AE5169 /* KVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTest.m; sourceTree = "<group>"; };
+		CD6895F72229613F00AE5169 /* NSKVONotifying_KVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_KVOTest.m; sourceTree = "<group>"; };
+		CD6895F82229613F00AE5169 /* KVOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOTest.h; sourceTree = "<group>"; };
+		CD6895FA2229613F00AE5169 /* LockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockTest.h; sourceTree = "<group>"; };
+		CD6895FB2229613F00AE5169 /* LockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockTest.m; sourceTree = "<group>"; };
+		CD6895FD2229613F00AE5169 /* Multithreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multithreading.h; sourceTree = "<group>"; };
+		CD6895FE2229613F00AE5169 /* Multithreading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multithreading.m; sourceTree = "<group>"; };
+		CD6896032229614700AE5169 /* MessageForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageForwarding.m; sourceTree = "<group>"; };
+		CD6896042229614700AE5169 /* MessageForwarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageForwarding.h; sourceTree = "<group>"; };
+		CD6896052229614700AE5169 /* MessageTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTarget.m; sourceTree = "<group>"; };
+		CD6896062229614700AE5169 /* MessageTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTarget.h; sourceTree = "<group>"; };
 		CD7CD30421E342A700A7FCFD /* UserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
 		CD7CD30521E342A700A7FCFD /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
 		CD7CD30D21E43A3D00A7FCFD /* TFBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFBaseModel.h; sourceTree = "<group>"; };
@@ -65,6 +77,10 @@
 		CD38B60421D23AB7008FEBAE /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				CD6896042229614700AE5169 /* MessageForwarding.h */,
+				CD6896032229614700AE5169 /* MessageForwarding.m */,
+				CD6896062229614700AE5169 /* MessageTarget.h */,
+				CD6896052229614700AE5169 /* MessageTarget.m */,
 				CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */,
 				CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */,
 				CD38B60521D23B7E008FEBAE /* Personal.h */,
@@ -77,6 +93,35 @@
 				CD7CD30E21E43A3D00A7FCFD /* TFBaseModel.m */,
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		CD6895F42229613F00AE5169 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				CD6895F52229613F00AE5169 /* NSKVONotifying_KVOTest.h */,
+				CD6895F62229613F00AE5169 /* KVOTest.m */,
+				CD6895F72229613F00AE5169 /* NSKVONotifying_KVOTest.m */,
+				CD6895F82229613F00AE5169 /* KVOTest.h */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		CD6895F92229613F00AE5169 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				CD6895FA2229613F00AE5169 /* LockTest.h */,
+				CD6895FB2229613F00AE5169 /* LockTest.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		CD6895FC2229613F00AE5169 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				CD6895FD2229613F00AE5169 /* Multithreading.h */,
+				CD6895FE2229613F00AE5169 /* Multithreading.m */,
+			);
+			path = Thread;
 			sourceTree = "<group>";
 		};
 		CD82C42521ABA05600B3BAA0 = {
@@ -98,15 +143,14 @@
 		CD82C43021ABA05600B3BAA0 /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				CD6895F42229613F00AE5169 /* KVO */,
+				CD6895F92229613F00AE5169 /* Lock */,
+				CD6895FC2229613F00AE5169 /* Thread */,
 				CD38B60421D23AB7008FEBAE /* Runtime */,
 				CD82C43121ABA05600B3BAA0 /* AppDelegate.h */,
 				CD82C43221ABA05600B3BAA0 /* AppDelegate.m */,
 				CD82C43421ABA05600B3BAA0 /* ViewController.h */,
 				CD82C43521ABA05600B3BAA0 /* ViewController.m */,
-				CD38B5FB21D239B7008FEBAE /* Multithreading.h */,
-				CD38B5FC21D239B7008FEBAE /* Multithreading.m */,
-				CD38B60121D23A50008FEBAE /* LockTest.h */,
-				CD38B60221D23A50008FEBAE /* LockTest.m */,
 				CD82C43721ABA05600B3BAA0 /* Main.storyboard */,
 				CD82C43A21ABA05A00B3BAA0 /* Assets.xcassets */,
 				CD82C43C21ABA05A00B3BAA0 /* LaunchScreen.storyboard */,
@@ -188,15 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD38B5FD21D239B7008FEBAE /* Multithreading.m in Sources */,
+				CD6896082229614700AE5169 /* MessageTarget.m in Sources */,
 				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
+				CD6896072229614700AE5169 /* MessageForwarding.m in Sources */,
 				CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */,
+				CD6896002229613F00AE5169 /* NSKVONotifying_KVOTest.m in Sources */,
+				CD6896012229613F00AE5169 /* LockTest.m in Sources */,
+				CD6896022229613F00AE5169 /* Multithreading.m in Sources */,
+				CD6895FF2229613F00AE5169 /* KVOTest.m in Sources */,
 				CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */,
 				CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */,
 				CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */,
 				CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */,
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
-				CD38B60321D23A50008FEBAE /* LockTest.m in Sources */,
 				CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
