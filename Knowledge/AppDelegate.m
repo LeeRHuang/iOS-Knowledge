@@ -23,19 +23,19 @@
 //    Multithreading *threading = [[Multithreading alloc] init];
 //    RuntimeTest *runtime = [[RuntimeTest alloc] init];
     
-    UserInfoModel *infoModel = [[UserInfoModel alloc] init];
-    infoModel.name = @"Lee";
-    infoModel.age = 28;
-    infoModel.mobile = @"18910898751";
-    infoModel.gennder = @"男";
-    NSError *error;
-    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:infoModel];
-    
-    [[NSUserDefaults standardUserDefaults] setObject:data forKey:@"model"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    
-    NSData *cacheData = [[NSUserDefaults standardUserDefaults] objectForKey:@"model"];
-    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
+//    UserInfoModel *infoModel = [[UserInfoModel alloc] init];
+//    infoModel.name = @"Lee";
+//    infoModel.age = 28;
+//    infoModel.mobile = @"18910898751";
+//    infoModel.gennder = @"男";
+//    NSError *error;
+//    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:infoModel];
+//
+//    [[NSUserDefaults standardUserDefaults] setObject:data forKey:@"model"];
+//    [[NSUserDefaults standardUserDefaults] synchronize];
+//
+//    NSData *cacheData = [[NSUserDefaults standardUserDefaults] objectForKey:@"model"];
+//    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
     
     return YES;
 }

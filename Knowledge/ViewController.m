@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BlockTest.h"
 
 @interface ViewController ()
 
@@ -15,8 +16,36 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];    
+    [super viewDidLoad];
+    
+    BlockTest *block = [[BlockTest alloc] init];
+    [block testBlock];
+    
+        NSMutableString *originalString = @"hello world!";
+    
+        NSString *newString = [self stringByReverse:originalString];
+    
+        NSLog(@"OC reverse result is %@ \n", newString);
+//    block.callBack = ^NSString *(NSString *name) {
+//        
+//    };
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (NSString *)stringByReverse:(NSMutableString *)str{
+    
+      NSMutableString *string = [NSMutableString stringWithCapacity:str.length];
+    
+      for (NSInteger i = str.length-1; i>=0; i--) {
+        
+      NSLog(@"%@",[str substringWithRange:NSMakeRange(i, 1)]);
+        
+      [string appendString:[str substringWithRange:NSMakeRange(i, 1)]];
+        
+    }
+    
+     return string;
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA6470522EF42EF00AA4B86 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA646FF22EF42EE00AA4B86 /* YellowView.m */; };
+		7CA6470622EF42EF00AA4B86 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470122EF42EE00AA4B86 /* GreenView.m */; };
+		7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470222EF42EE00AA4B86 /* BlackView.m */; };
+		7CA6470822EF42EF00AA4B86 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470322EF42EE00AA4B86 /* RedView.m */; };
+		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
 		CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */; };
@@ -28,6 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CA646FD22EF42EE00AA4B86 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		7CA646FE22EF42EE00AA4B86 /* BlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackView.h; sourceTree = "<group>"; };
+		7CA646FF22EF42EE00AA4B86 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		7CA6470022EF42EE00AA4B86 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		7CA6470122EF42EE00AA4B86 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		7CA6470222EF42EE00AA4B86 /* BlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackView.m; sourceTree = "<group>"; };
+		7CA6470322EF42EE00AA4B86 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		7CA6470422EF42EF00AA4B86 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
 		CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
 		CD38B60521D23B7E008FEBAE /* Personal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
@@ -74,6 +89,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CA646FC22EF428B00AA4B86 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				7CA646FE22EF42EE00AA4B86 /* BlackView.h */,
+				7CA6470222EF42EE00AA4B86 /* BlackView.m */,
+				7CA6470022EF42EE00AA4B86 /* GreenView.h */,
+				7CA6470122EF42EE00AA4B86 /* GreenView.m */,
+				7CA646FD22EF42EE00AA4B86 /* RedView.h */,
+				7CA6470322EF42EE00AA4B86 /* RedView.m */,
+				7CA6470422EF42EF00AA4B86 /* YellowView.h */,
+				7CA646FF22EF42EE00AA4B86 /* YellowView.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		7CA6470922EF445F00AA4B86 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		7CDC9286222ACD10004F7E31 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				7CDC9287222ACD1F004F7E31 /* BlockTest.h */,
+				7CDC9288222ACD1F004F7E31 /* BlockTest.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
 		CD38B60421D23AB7008FEBAE /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +189,9 @@
 		CD82C43021ABA05600B3BAA0 /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6470922EF445F00AA4B86 /* Algorithm */,
+				7CA646FC22EF428B00AA4B86 /* Events */,
+				7CDC9286222ACD10004F7E31 /* Block */,
 				CD6895F42229613F00AE5169 /* KVO */,
 				CD6895F92229613F00AE5169 /* Lock */,
 				CD6895FC2229613F00AE5169 /* Thread */,
@@ -244,8 +293,13 @@
 				CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */,
 				CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */,
 				CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */,
+				7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */,
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
+				7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */,
+				7CA6470822EF42EF00AA4B86 /* RedView.m in Sources */,
+				7CA6470522EF42EF00AA4B86 /* YellowView.m in Sources */,
 				CD82C43321ABA05600B3BAA0 /* AppDelegate.m in Sources */,
+				7CA6470622EF42EF00AA4B86 /* GreenView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +442,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9R8U88B3Y5;
 				INFOPLIST_FILE = Knowledge/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,7 +462,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Knowledge/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
