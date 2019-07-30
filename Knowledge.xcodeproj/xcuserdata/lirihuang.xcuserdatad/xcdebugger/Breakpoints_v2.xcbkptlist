@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Knowledge/ViewController.m"
-            timestampString = "573440625.799302"
+            filePath = "Knowledge/DesignPattern/Creater/Propotype/Propotype.m"
+            timestampString = "586194699.418535"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-copyWithZone:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

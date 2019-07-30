@@ -11,6 +11,229 @@
 		7CA6470622EF42EF00AA4B86 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470122EF42EE00AA4B86 /* GreenView.m */; };
 		7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470222EF42EE00AA4B86 /* BlackView.m */; };
 		7CA6470822EF42EF00AA4B86 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470322EF42EE00AA4B86 /* RedView.m */; };
+		7CA6471022F09CA300AA4B86 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470F22F09CA300AA4B86 /* Prototype.m */; };
+		7CA6482022F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471322F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6482122F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471522F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6482222F0A3DD00AA4B86 /* 4E116564-28E9-476F-8DCF-3B1C3451CFDB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471722F0A3DD00AA4B86 /* 4E116564-28E9-476F-8DCF-3B1C3451CFDB.png */; };
+		7CA6482322F0A3DD00AA4B86 /* 273D41CB-D6E8-4847-A144-133D88704023.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471822F0A3DD00AA4B86 /* 273D41CB-D6E8-4847-A144-133D88704023.png */; };
+		7CA6482422F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471922F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6482522F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471B22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6482622F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471C22F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6482722F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6471E22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6482822F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472022F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6482922F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472222F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6482A22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472422F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6482B22F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472522F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6482C22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472722F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6482D22F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472922F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6482E22F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472B22F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6482F22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472D22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483022F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6472E22F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6483122F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473022F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483222F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473222F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6483322F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473422F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6483422F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473622F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483522F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473722F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6483622F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473922F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483722F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473B22F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6483822F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473D22F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6483922F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6473F22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483A22F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474022F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6483B22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474222F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483C22F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474422F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6483D22F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474622F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6483E22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474822F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6483F22F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474922F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6484022F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474B22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6484122F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474D22F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6484222F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6474F22F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6484322F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475122F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6484422F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475222F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6484522F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475422F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6484622F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475622F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6484722F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475822F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6484822F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475A22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6484922F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475B22F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6484A22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475D22F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6484B22F0A3DD00AA4B86 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6475F22F0A3DD00AA4B86 /* Preview.jpg */; };
+		7CA6484C22F0A3DD00AA4B86 /* viewState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476122F0A3DD00AA4B86 /* viewState.plist */; };
+		7CA6484D22F0A3DD00AA4B86 /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476322F0A3DD00AA4B86 /* contents.xml */; };
+		7CA6484E22F0A3DD00AA4B86 /* metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476422F0A3DD00AA4B86 /* metadata.plist */; };
+		7CA6484F22F0A3DD00AA4B86 /* sort.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476622F0A3DD00AA4B86 /* sort.js */; };
+		7CA6485022F0A3DD00AA4B86 /* isPalindrome.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476722F0A3DD00AA4B86 /* isPalindrome.js */; };
+		7CA6485122F0A3DD00AA4B86 /* sort.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476922F0A3DD00AA4B86 /* sort.js */; };
+		7CA6485222F0A3DD00AA4B86 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476A22F0A3DD00AA4B86 /* index.html */; };
+		7CA6485322F0A3DD00AA4B86 /* Q116.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476D22F0A3DD00AA4B86 /* Q116.js */; };
+		7CA6485422F0A3DD00AA4B86 /* Q122.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476E22F0A3DD00AA4B86 /* Q122.js */; };
+		7CA6485522F0A3DD00AA4B86 /* Q190.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6476F22F0A3DD00AA4B86 /* Q190.js */; };
+		7CA6485622F0A3DD00AA4B86 /* Q102.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477022F0A3DD00AA4B86 /* Q102.js */; };
+		7CA6485722F0A3DD00AA4B86 /* Q136.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477122F0A3DD00AA4B86 /* Q136.js */; };
+		7CA6485822F0A3DD00AA4B86 /* Q127.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477222F0A3DD00AA4B86 /* Q127.js */; };
+		7CA6485922F0A3DD00AA4B86 /* Q152.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477322F0A3DD00AA4B86 /* Q152.js */; };
+		7CA6485A22F0A3DD00AA4B86 /* Q166.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477422F0A3DD00AA4B86 /* Q166.js */; };
+		7CA6485B22F0A3DD00AA4B86 /* Q146.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477522F0A3DD00AA4B86 /* Q146.js */; };
+		7CA6485C22F0A3DD00AA4B86 /* Q172.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477622F0A3DD00AA4B86 /* Q172.js */; };
+		7CA6485D22F0A3DD00AA4B86 /* Q162.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477722F0A3DD00AA4B86 /* Q162.js */; };
+		7CA6485E22F0A3DD00AA4B86 /* Q200.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477822F0A3DD00AA4B86 /* Q200.js */; };
+		7CA6485F22F0A3DD00AA4B86 /* Q191.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477922F0A3DD00AA4B86 /* Q191.js */; };
+		7CA6486022F0A3DD00AA4B86 /* Q179.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477A22F0A3DD00AA4B86 /* Q179.js */; };
+		7CA6486122F0A3DD00AA4B86 /* Q128.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477B22F0A3DD00AA4B86 /* Q128.js */; };
+		7CA6486222F0A3DD00AA4B86 /* Q138.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477C22F0A3DD00AA4B86 /* Q138.js */; };
+		7CA6486322F0A3DD00AA4B86 /* Q169.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477D22F0A3DD00AA4B86 /* Q169.js */; };
+		7CA6486422F0A3DD00AA4B86 /* Q149.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477E22F0A3DD00AA4B86 /* Q149.js */; };
+		7CA6486522F0A3DD00AA4B86 /* Q118.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6477F22F0A3DD00AA4B86 /* Q118.js */; };
+		7CA6486622F0A3DD00AA4B86 /* Q108.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478022F0A3DD00AA4B86 /* Q108.js */; };
+		7CA6486722F0A3DD00AA4B86 /* Q148.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478122F0A3DD00AA4B86 /* Q148.js */; };
+		7CA6486822F0A3DD00AA4B86 /* Q139.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478222F0A3DD00AA4B86 /* Q139.js */; };
+		7CA6486922F0A3DD00AA4B86 /* Q127-DFS-TLE.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478322F0A3DD00AA4B86 /* Q127-DFS-TLE.js */; };
+		7CA6486A22F0A3DD00AA4B86 /* Q198.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478422F0A3DD00AA4B86 /* Q198.js */; };
+		7CA6486B22F0A3DD00AA4B86 /* Q189.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478522F0A3DD00AA4B86 /* Q189.js */; };
+		7CA6486C22F0A3DD00AA4B86 /* Q124.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478622F0A3DD00AA4B86 /* Q124.js */; };
+		7CA6486D22F0A3DD00AA4B86 /* Q141.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478722F0A3DD00AA4B86 /* Q141.js */; };
+		7CA6486E22F0A3DD00AA4B86 /* Q171.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478822F0A3DD00AA4B86 /* Q171.js */; };
+		7CA6486F22F0A3DD00AA4B86 /* Q130.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478922F0A3DD00AA4B86 /* Q130.js */; };
+		7CA6487022F0A3DD00AA4B86 /* Q104.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478A22F0A3DD00AA4B86 /* Q104.js */; };
+		7CA6487122F0A3DD00AA4B86 /* Q155.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478B22F0A3DD00AA4B86 /* Q155.js */; };
+		7CA6487222F0A3DD00AA4B86 /* Q121.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478C22F0A3DD00AA4B86 /* Q121.js */; };
+		7CA6487322F0A3DD00AA4B86 /* Q160.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478D22F0A3DD00AA4B86 /* Q160.js */; };
+		7CA6487422F0A3DD00AA4B86 /* Q131.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478E22F0A3DD00AA4B86 /* Q131.js */; };
+		7CA6487522F0A3DD00AA4B86 /* Q105.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6478F22F0A3DD00AA4B86 /* Q105.js */; };
+		7CA6487622F0A3DD00AA4B86 /* Q125.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479022F0A3DD00AA4B86 /* Q125.js */; };
+		7CA6487722F0A3DD00AA4B86 /* Q140.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479122F0A3DD00AA4B86 /* Q140.js */; };
+		7CA6487822F0A3DD00AA4B86 /* Q150.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479222F0A3DD00AA4B86 /* Q150.js */; };
+		7CA6487922F0A3DD00AA4B86 /* Q101.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479322F0A3DD00AA4B86 /* Q101.js */; };
+		7CA6487A22F0A3DD00AA4B86 /* Q287.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479522F0A3DD00AA4B86 /* Q287.js */; };
+		7CA6487B22F0A3DD00AA4B86 /* Q300.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479622F0A3DD00AA4B86 /* Q300.js */; };
+		7CA6487C22F0A3DD00AA4B86 /* Q240.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479722F0A3DD00AA4B86 /* Q240.js */; };
+		7CA6487D22F0A3DD00AA4B86 /* Q297.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479822F0A3DD00AA4B86 /* Q297.js */; };
+		7CA6487E22F0A3DD00AA4B86 /* Q235.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479922F0A3DD00AA4B86 /* Q235.js */; };
+		7CA6487F22F0A3DD00AA4B86 /* Q215.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479A22F0A3DD00AA4B86 /* Q215.js */; };
+		7CA6488022F0A3DD00AA4B86 /* Q283.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479B22F0A3DD00AA4B86 /* Q283.js */; };
+		7CA6488122F0A3DD00AA4B86 /* Q230.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479C22F0A3DD00AA4B86 /* Q230.js */; };
+		7CA6488222F0A3DD00AA4B86 /* Q204.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479D22F0A3DD00AA4B86 /* Q204.js */; };
+		7CA6488322F0A3DD00AA4B86 /* Q210.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479E22F0A3DD00AA4B86 /* Q210.js */; };
+		7CA6488422F0A3DD00AA4B86 /* Q234.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6479F22F0A3DD00AA4B86 /* Q234.js */; };
+		7CA6488522F0A3DD00AA4B86 /* Q289.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A022F0A3DD00AA4B86 /* Q289.js */; };
+		7CA6488622F0A3DD00AA4B86 /* Q268.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A122F0A3DD00AA4B86 /* Q268.js */; };
+		7CA6488722F0A3DD00AA4B86 /* Q239.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A222F0A3DD00AA4B86 /* Q239.js */; };
+		7CA6488822F0A3DD00AA4B86 /* Q218.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A322F0A3DD00AA4B86 /* Q218.js */; };
+		7CA6488922F0A3DD00AA4B86 /* Q208.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A422F0A3DD00AA4B86 /* Q208.js */; };
+		7CA6488A22F0A3DD00AA4B86 /* Q279.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A522F0A3DD00AA4B86 /* Q279.js */; };
+		7CA6488B22F0A3DD00AA4B86 /* Q238.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A622F0A3DD00AA4B86 /* Q238.js */; };
+		7CA6488C22F0A3DD00AA4B86 /* Q207.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A722F0A3DD00AA4B86 /* Q207.js */; };
+		7CA6488D22F0A3DD00AA4B86 /* Q227.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A822F0A3DD00AA4B86 /* Q227.js */; };
+		7CA6488E22F0A3DD00AA4B86 /* Q242.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647A922F0A3DD00AA4B86 /* Q242.js */; };
+		7CA6488F22F0A3DD00AA4B86 /* Q237.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647AA22F0A3DD00AA4B86 /* Q237.js */; };
+		7CA6489022F0A3DD00AA4B86 /* Q295.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647AB22F0A3DD00AA4B86 /* Q295.js */; };
+		7CA6489122F0A3DD00AA4B86 /* Q212.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647AC22F0A3DD00AA4B86 /* Q212.js */; };
+		7CA6489222F0A3DD00AA4B86 /* Q202.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647AD22F0A3DD00AA4B86 /* Q202.js */; };
+		7CA6489322F0A3DD00AA4B86 /* Q206.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647AE22F0A3DD00AA4B86 /* Q206.js */; };
+		7CA6489422F0A3DD00AA4B86 /* note.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647AF22F0A3DD00AA4B86 /* note.md */; };
+		7CA6489522F0A3DD00AA4B86 /* Q334.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B122F0A3DD00AA4B86 /* Q334.js */; };
+		7CA6489622F0A3DD00AA4B86 /* Q341.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B222F0A3DD00AA4B86 /* Q341.js */; };
+		7CA6489722F0A3DD00AA4B86 /* Q324.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B322F0A3DD00AA4B86 /* Q324.js */; };
+		7CA6489822F0A3DD00AA4B86 /* Q371.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B422F0A3DD00AA4B86 /* Q371.js */; };
+		7CA6489922F0A3DD00AA4B86 /* Q344.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B522F0A3DD00AA4B86 /* Q344.js */; };
+		7CA6489A22F0A3DD00AA4B86 /* Q350.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B622F0A3DD00AA4B86 /* Q350.js */; };
+		7CA6489B22F0A3DD00AA4B86 /* Q387.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B722F0A3DD00AA4B86 /* Q387.js */; };
+		7CA6489C22F0A3DD00AA4B86 /* Q454.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B822F0A3DD00AA4B86 /* Q454.js */; };
+		7CA6489D22F0A3DD00AA4B86 /* Q328.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647B922F0A3DD00AA4B86 /* Q328.js */; };
+		7CA6489E22F0A3DD00AA4B86 /* Q329.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647BA22F0A3DD00AA4B86 /* Q329.js */; };
+		7CA6489F22F0A3DD00AA4B86 /* Q378.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647BB22F0A3DD00AA4B86 /* Q378.js */; };
+		7CA648A022F0A3DD00AA4B86 /* Q322.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647BC22F0A3DD00AA4B86 /* Q322.js */; };
+		7CA648A122F0A3DD00AA4B86 /* Q380.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647BD22F0A3DD00AA4B86 /* Q380.js */; };
+		7CA648A222F0A3DD00AA4B86 /* Q347.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647BE22F0A3DD00AA4B86 /* Q347.js */; };
+		7CA648A322F0A3DD00AA4B86 /* Q326.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647BF22F0A3DD00AA4B86 /* Q326.js */; };
+		7CA648A422F0A3DD00AA4B86 /* Q384.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C022F0A3DD00AA4B86 /* Q384.js */; };
+		7CA648A522F0A3DD00AA4B86 /* Q395.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C122F0A3DD00AA4B86 /* Q395.js */; };
+		7CA648A622F0A3DD00AA4B86 /* Q21.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C322F0A3DD00AA4B86 /* Q21.js */; };
+		7CA648A722F0A3DD00AA4B86 /* Q70.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C422F0A3DD00AA4B86 /* Q70.js */; };
+		7CA648A822F0A3DD00AA4B86 /* Q44.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C522F0A3DD00AA4B86 /* Q44.js */; };
+		7CA648A922F0A3DD00AA4B86 /* Q15.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C622F0A3DD00AA4B86 /* Q15.js */; };
+		7CA648AA22F0A3DD00AA4B86 /* Q54.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C722F0A3DD00AA4B86 /* Q54.js */; };
+		7CA648AB22F0A3DD00AA4B86 /* Q11.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C822F0A3DD00AA4B86 /* Q11.js */; };
+		7CA648AC22F0A3DD00AA4B86 /* Q50.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647C922F0A3DD00AA4B86 /* Q50.js */; };
+		7CA648AD22F0A3DD00AA4B86 /* Q10.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647CA22F0A3DD00AA4B86 /* Q10.js */; };
+		7CA648AE22F0A3DD00AA4B86 /* Q41.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647CB22F0A3DD00AA4B86 /* Q41.js */; };
+		7CA648AF22F0A3DD00AA4B86 /* Q75.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647CC22F0A3DD00AA4B86 /* Q75.js */; };
+		7CA648B022F0A3DD00AA4B86 /* Q34.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647CD22F0A3DD00AA4B86 /* Q34.js */; };
+		7CA648B122F0A3DD00AA4B86 /* Q20.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647CE22F0A3DD00AA4B86 /* Q20.js */; };
+		7CA648B222F0A3DD00AA4B86 /* Q14.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647CF22F0A3DD00AA4B86 /* Q14.js */; };
+		7CA648B322F0A3DD00AA4B86 /* Q55.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D022F0A3DD00AA4B86 /* Q55.js */; };
+		7CA648B422F0A3DD00AA4B86 /* Q1.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D122F0A3DD00AA4B86 /* Q1.js */; };
+		7CA648B522F0A3DD00AA4B86 /* Q5.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D222F0A3DD00AA4B86 /* Q5.js */; };
+		7CA648B622F0A3DD00AA4B86 /* Q4.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D322F0A3DD00AA4B86 /* Q4.js */; };
+		7CA648B722F0A3DD00AA4B86 /* Q88.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D422F0A3DD00AA4B86 /* Q88.js */; };
+		7CA648B822F0A3DD00AA4B86 /* Q98.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D522F0A3DD00AA4B86 /* Q98.js */; };
+		7CA648B922F0A3DD00AA4B86 /* Q48.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D622F0A3DD00AA4B86 /* Q48.js */; };
+		7CA648BA22F0A3DD00AA4B86 /* Q19.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D722F0A3DD00AA4B86 /* Q19.js */; };
+		7CA648BB22F0A3DD00AA4B86 /* Q7.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D822F0A3DD00AA4B86 /* Q7.js */; };
+		7CA648BC22F0A3DE00AA4B86 /* Q78.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647D922F0A3DD00AA4B86 /* Q78.js */; };
+		7CA648BD22F0A3DE00AA4B86 /* Q29.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647DA22F0A3DD00AA4B86 /* Q29.js */; };
+		7CA648BE22F0A3DE00AA4B86 /* Q3.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647DB22F0A3DD00AA4B86 /* Q3.js */; };
+		7CA648BF22F0A3DE00AA4B86 /* Q79.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647DC22F0A3DD00AA4B86 /* Q79.js */; };
+		7CA648C022F0A3DE00AA4B86 /* Q28.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647DD22F0A3DD00AA4B86 /* Q28.js */; };
+		7CA648C122F0A3DE00AA4B86 /* Q38.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647DE22F0A3DD00AA4B86 /* Q38.js */; };
+		7CA648C222F0A3DE00AA4B86 /* Q69.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647DF22F0A3DD00AA4B86 /* Q69.js */; };
+		7CA648C322F0A3DE00AA4B86 /* Q2.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E022F0A3DD00AA4B86 /* Q2.js */; };
+		7CA648C422F0A3DE00AA4B86 /* Q49.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E122F0A3DD00AA4B86 /* Q49.js */; };
+		7CA648C522F0A3DE00AA4B86 /* Q6.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E222F0A3DD00AA4B86 /* Q6.js */; };
+		7CA648C622F0A3DE00AA4B86 /* Q42.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E322F0A3DD00AA4B86 /* Q42.js */; };
+		7CA648C722F0A3DE00AA4B86 /* Q13.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E422F0A3DD00AA4B86 /* Q13.js */; };
+		7CA648C822F0A3DE00AA4B86 /* Q76.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E522F0A3DD00AA4B86 /* Q76.js */; };
+		7CA648C922F0A3DE00AA4B86 /* Q66.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E622F0A3DD00AA4B86 /* Q66.js */; };
+		7CA648CA22F0A3DE00AA4B86 /* Q23.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E722F0A3DD00AA4B86 /* Q23.js */; };
+		7CA648CB22F0A3DE00AA4B86 /* Q17.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E822F0A3DD00AA4B86 /* Q17.js */; };
+		7CA648CC22F0A3DE00AA4B86 /* Q46.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647E922F0A3DD00AA4B86 /* Q46.js */; };
+		7CA648CD22F0A3DE00AA4B86 /* Q9.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647EA22F0A3DD00AA4B86 /* Q9.js */; };
+		7CA648CE22F0A3DE00AA4B86 /* Q56.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647EB22F0A3DD00AA4B86 /* Q56.js */; };
+		7CA648CF22F0A3DE00AA4B86 /* Q91.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647EC22F0A3DD00AA4B86 /* Q91.js */; };
+		7CA648D022F0A3DE00AA4B86 /* Q33.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647ED22F0A3DD00AA4B86 /* Q33.js */; };
+		7CA648D122F0A3DE00AA4B86 /* Q62.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647EE22F0A3DD00AA4B86 /* Q62.js */; };
+		7CA648D222F0A3DE00AA4B86 /* Q73.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647EF22F0A3DD00AA4B86 /* Q73.js */; };
+		7CA648D322F0A3DE00AA4B86 /* Q22.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F022F0A3DD00AA4B86 /* Q22.js */; };
+		7CA648D422F0A3DE00AA4B86 /* Q16.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F122F0A3DD00AA4B86 /* Q16.js */; };
+		7CA648D522F0A3DE00AA4B86 /* Q8.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F222F0A3DD00AA4B86 /* Q8.js */; };
+		7CA648D622F0A3DE00AA4B86 /* Q12.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F322F0A3DD00AA4B86 /* Q12.js */; };
+		7CA648D722F0A3DE00AA4B86 /* Q26.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F422F0A3DD00AA4B86 /* Q26.js */; };
+		7CA648D822F0A3DE00AA4B86 /* Q84.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F522F0A3DD00AA4B86 /* Q84.js */; };
+		7CA648D922F0A3DE00AA4B86 /* Q94.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F622F0A3DD00AA4B86 /* Q94.js */; };
+		7CA648DA22F0A3DE00AA4B86 /* Q36.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F722F0A3DD00AA4B86 /* Q36.js */; };
+		7CA648DB22F0A3DE00AA4B86 /* Q53.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647F822F0A3DD00AA4B86 /* Q53.js */; };
+		7CA648DC22F0A3DE00AA4B86 /* sort_quick_3way.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647FB22F0A3DD00AA4B86 /* sort_quick_3way.js */; };
+		7CA648DD22F0A3DE00AA4B86 /* sort_quick.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647FC22F0A3DD00AA4B86 /* sort_quick.js */; };
+		7CA648DE22F0A3DE00AA4B86 /* sort_max_pq_02.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647FD22F0A3DD00AA4B86 /* sort_max_pq_02.js */; };
+		7CA648DF22F0A3DE00AA4B86 /* sort_shell.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647FE22F0A3DD00AA4B86 /* sort_shell.js */; };
+		7CA648E022F0A3DE00AA4B86 /* sort_merge_b2t.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA647FF22F0A3DD00AA4B86 /* sort_merge_b2t.js */; };
+		7CA648E122F0A3DE00AA4B86 /* sort_max_pq.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480022F0A3DD00AA4B86 /* sort_max_pq.js */; };
+		7CA648E222F0A3DE00AA4B86 /* sort_selection.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480122F0A3DD00AA4B86 /* sort_selection.js */; };
+		7CA648E322F0A3DE00AA4B86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480222F0A3DD00AA4B86 /* README.md */; };
+		7CA648E422F0A3DE00AA4B86 /* sort_insert.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480322F0A3DD00AA4B86 /* sort_insert.js */; };
+		7CA648E522F0A3DE00AA4B86 /* sort_merge_t2b.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480422F0A3DD00AA4B86 /* sort_merge_t2b.js */; };
+		7CA648E622F0A3DE00AA4B86 /* image_bfs.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480622F0A3DD00AA4B86 /* image_bfs.js */; };
+		7CA648E722F0A3DE00AA4B86 /* image_dfs.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480722F0A3DD00AA4B86 /* image_dfs.js */; };
+		7CA648E822F0A3DE00AA4B86 /* search_linklist.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480922F0A3DD00AA4B86 /* search_linklist.js */; };
+		7CA648E922F0A3DE00AA4B86 /* search_bst.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480A22F0A3DD00AA4B86 /* search_bst.js */; };
+		7CA648EA22F0A3DE00AA4B86 /* search_binary.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480B22F0A3DD00AA4B86 /* search_binary.js */; };
+		7CA648EB22F0A3DE00AA4B86 /* search_linear.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480C22F0A3DD00AA4B86 /* search_linear.js */; };
+		7CA648EC22F0A3DE00AA4B86 /* search_zipper.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480D22F0A3DD00AA4B86 /* search_zipper.js */; };
+		7CA648ED22F0A3DE00AA4B86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6480E22F0A3DD00AA4B86 /* README.md */; };
+		7CA648EE22F0A3DE00AA4B86 /* search_kmp.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481022F0A3DD00AA4B86 /* search_kmp.js */; };
+		7CA648EF22F0A3DE00AA4B86 /* search_rk.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481122F0A3DD00AA4B86 /* search_rk.js */; };
+		7CA648F022F0A3DE00AA4B86 /* sort_quick_3_string.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481222F0A3DD00AA4B86 /* sort_quick_3_string.js */; };
+		7CA648F122F0A3DE00AA4B86 /* sort_index_count.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481322F0A3DD00AA4B86 /* sort_index_count.js */; };
+		7CA648F222F0A3DE00AA4B86 /* search_violence.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481422F0A3DD00AA4B86 /* search_violence.js */; };
+		7CA648F322F0A3DE00AA4B86 /* sort_lsd.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481522F0A3DD00AA4B86 /* sort_lsd.js */; };
+		7CA648F422F0A3DE00AA4B86 /* sort_msd.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481622F0A3DD00AA4B86 /* sort_msd.js */; };
+		7CA648F522F0A3DE00AA4B86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481722F0A3DD00AA4B86 /* README.md */; };
+		7CA648F622F0A3DE00AA4B86 /* search_violence_2.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481822F0A3DD00AA4B86 /* search_violence_2.js */; };
+		7CA648F722F0A3DE00AA4B86 /* trie.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481922F0A3DD00AA4B86 /* trie.js */; };
+		7CA648F822F0A3DE00AA4B86 /* search_bm.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481A22F0A3DD00AA4B86 /* search_bm.js */; };
+		7CA648F922F0A3DE00AA4B86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481B22F0A3DD00AA4B86 /* README.md */; };
+		7CA648FA22F0A3DE00AA4B86 /* LeetCodeACByJS-master.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481C22F0A3DD00AA4B86 /* LeetCodeACByJS-master.zip */; };
+		7CA648FB22F0A3DE00AA4B86 /* PalindromeNode.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481D22F0A3DD00AA4B86 /* PalindromeNode.js */; };
+		7CA648FC22F0A3DE00AA4B86 /* nodeReverse.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481E22F0A3DD00AA4B86 /* nodeReverse.js */; };
+		7CA648FD22F0A3DE00AA4B86 /* 1.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6481F22F0A3DD00AA4B86 /* 1.js */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
@@ -41,6 +264,230 @@
 		7CA6470222EF42EE00AA4B86 /* BlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackView.m; sourceTree = "<group>"; };
 		7CA6470322EF42EE00AA4B86 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		7CA6470422EF42EF00AA4B86 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		7CA6470E22F09CA300AA4B86 /* Prototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
+		7CA6470F22F09CA300AA4B86 /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
+		7CA6471322F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6471522F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6471722F0A3DD00AA4B86 /* 4E116564-28E9-476F-8DCF-3B1C3451CFDB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4E116564-28E9-476F-8DCF-3B1C3451CFDB.png"; sourceTree = "<group>"; };
+		7CA6471822F0A3DD00AA4B86 /* 273D41CB-D6E8-4847-A144-133D88704023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "273D41CB-D6E8-4847-A144-133D88704023.png"; sourceTree = "<group>"; };
+		7CA6471922F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6471B22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6471C22F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6471E22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6472022F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6472222F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6472422F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6472522F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6472722F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6472922F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6472B22F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6472D22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6472E22F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6473022F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6473222F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6473422F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6473622F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6473722F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6473922F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6473B22F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6473D22F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6473F22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6474022F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6474222F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6474422F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6474622F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6474822F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6474922F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6474B22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6474D22F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6474F22F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6475122F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6475222F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6475422F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6475622F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6475822F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6475A22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6475B22F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6475D22F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6475F22F0A3DD00AA4B86 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		7CA6476122F0A3DD00AA4B86 /* viewState.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = viewState.plist; sourceTree = "<group>"; };
+		7CA6476322F0A3DD00AA4B86 /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		7CA6476422F0A3DD00AA4B86 /* metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metadata.plist; sourceTree = "<group>"; };
+		7CA6476622F0A3DD00AA4B86 /* sort.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort.js; sourceTree = "<group>"; };
+		7CA6476722F0A3DD00AA4B86 /* isPalindrome.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = isPalindrome.js; sourceTree = "<group>"; };
+		7CA6476922F0A3DD00AA4B86 /* sort.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort.js; sourceTree = "<group>"; };
+		7CA6476A22F0A3DD00AA4B86 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		7CA6476D22F0A3DD00AA4B86 /* Q116.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q116.js; sourceTree = "<group>"; };
+		7CA6476E22F0A3DD00AA4B86 /* Q122.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q122.js; sourceTree = "<group>"; };
+		7CA6476F22F0A3DD00AA4B86 /* Q190.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q190.js; sourceTree = "<group>"; };
+		7CA6477022F0A3DD00AA4B86 /* Q102.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q102.js; sourceTree = "<group>"; };
+		7CA6477122F0A3DD00AA4B86 /* Q136.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q136.js; sourceTree = "<group>"; };
+		7CA6477222F0A3DD00AA4B86 /* Q127.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q127.js; sourceTree = "<group>"; };
+		7CA6477322F0A3DD00AA4B86 /* Q152.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q152.js; sourceTree = "<group>"; };
+		7CA6477422F0A3DD00AA4B86 /* Q166.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q166.js; sourceTree = "<group>"; };
+		7CA6477522F0A3DD00AA4B86 /* Q146.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q146.js; sourceTree = "<group>"; };
+		7CA6477622F0A3DD00AA4B86 /* Q172.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q172.js; sourceTree = "<group>"; };
+		7CA6477722F0A3DD00AA4B86 /* Q162.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q162.js; sourceTree = "<group>"; };
+		7CA6477822F0A3DD00AA4B86 /* Q200.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q200.js; sourceTree = "<group>"; };
+		7CA6477922F0A3DD00AA4B86 /* Q191.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q191.js; sourceTree = "<group>"; };
+		7CA6477A22F0A3DD00AA4B86 /* Q179.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q179.js; sourceTree = "<group>"; };
+		7CA6477B22F0A3DD00AA4B86 /* Q128.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q128.js; sourceTree = "<group>"; };
+		7CA6477C22F0A3DD00AA4B86 /* Q138.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q138.js; sourceTree = "<group>"; };
+		7CA6477D22F0A3DD00AA4B86 /* Q169.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q169.js; sourceTree = "<group>"; };
+		7CA6477E22F0A3DD00AA4B86 /* Q149.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q149.js; sourceTree = "<group>"; };
+		7CA6477F22F0A3DD00AA4B86 /* Q118.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q118.js; sourceTree = "<group>"; };
+		7CA6478022F0A3DD00AA4B86 /* Q108.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q108.js; sourceTree = "<group>"; };
+		7CA6478122F0A3DD00AA4B86 /* Q148.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q148.js; sourceTree = "<group>"; };
+		7CA6478222F0A3DD00AA4B86 /* Q139.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q139.js; sourceTree = "<group>"; };
+		7CA6478322F0A3DD00AA4B86 /* Q127-DFS-TLE.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "Q127-DFS-TLE.js"; sourceTree = "<group>"; };
+		7CA6478422F0A3DD00AA4B86 /* Q198.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q198.js; sourceTree = "<group>"; };
+		7CA6478522F0A3DD00AA4B86 /* Q189.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q189.js; sourceTree = "<group>"; };
+		7CA6478622F0A3DD00AA4B86 /* Q124.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q124.js; sourceTree = "<group>"; };
+		7CA6478722F0A3DD00AA4B86 /* Q141.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q141.js; sourceTree = "<group>"; };
+		7CA6478822F0A3DD00AA4B86 /* Q171.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q171.js; sourceTree = "<group>"; };
+		7CA6478922F0A3DD00AA4B86 /* Q130.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q130.js; sourceTree = "<group>"; };
+		7CA6478A22F0A3DD00AA4B86 /* Q104.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q104.js; sourceTree = "<group>"; };
+		7CA6478B22F0A3DD00AA4B86 /* Q155.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q155.js; sourceTree = "<group>"; };
+		7CA6478C22F0A3DD00AA4B86 /* Q121.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q121.js; sourceTree = "<group>"; };
+		7CA6478D22F0A3DD00AA4B86 /* Q160.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q160.js; sourceTree = "<group>"; };
+		7CA6478E22F0A3DD00AA4B86 /* Q131.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q131.js; sourceTree = "<group>"; };
+		7CA6478F22F0A3DD00AA4B86 /* Q105.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q105.js; sourceTree = "<group>"; };
+		7CA6479022F0A3DD00AA4B86 /* Q125.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q125.js; sourceTree = "<group>"; };
+		7CA6479122F0A3DD00AA4B86 /* Q140.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q140.js; sourceTree = "<group>"; };
+		7CA6479222F0A3DD00AA4B86 /* Q150.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q150.js; sourceTree = "<group>"; };
+		7CA6479322F0A3DD00AA4B86 /* Q101.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q101.js; sourceTree = "<group>"; };
+		7CA6479522F0A3DD00AA4B86 /* Q287.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q287.js; sourceTree = "<group>"; };
+		7CA6479622F0A3DD00AA4B86 /* Q300.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q300.js; sourceTree = "<group>"; };
+		7CA6479722F0A3DD00AA4B86 /* Q240.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q240.js; sourceTree = "<group>"; };
+		7CA6479822F0A3DD00AA4B86 /* Q297.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q297.js; sourceTree = "<group>"; };
+		7CA6479922F0A3DD00AA4B86 /* Q235.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q235.js; sourceTree = "<group>"; };
+		7CA6479A22F0A3DD00AA4B86 /* Q215.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q215.js; sourceTree = "<group>"; };
+		7CA6479B22F0A3DD00AA4B86 /* Q283.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q283.js; sourceTree = "<group>"; };
+		7CA6479C22F0A3DD00AA4B86 /* Q230.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q230.js; sourceTree = "<group>"; };
+		7CA6479D22F0A3DD00AA4B86 /* Q204.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q204.js; sourceTree = "<group>"; };
+		7CA6479E22F0A3DD00AA4B86 /* Q210.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q210.js; sourceTree = "<group>"; };
+		7CA6479F22F0A3DD00AA4B86 /* Q234.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q234.js; sourceTree = "<group>"; };
+		7CA647A022F0A3DD00AA4B86 /* Q289.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q289.js; sourceTree = "<group>"; };
+		7CA647A122F0A3DD00AA4B86 /* Q268.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q268.js; sourceTree = "<group>"; };
+		7CA647A222F0A3DD00AA4B86 /* Q239.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q239.js; sourceTree = "<group>"; };
+		7CA647A322F0A3DD00AA4B86 /* Q218.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q218.js; sourceTree = "<group>"; };
+		7CA647A422F0A3DD00AA4B86 /* Q208.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q208.js; sourceTree = "<group>"; };
+		7CA647A522F0A3DD00AA4B86 /* Q279.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q279.js; sourceTree = "<group>"; };
+		7CA647A622F0A3DD00AA4B86 /* Q238.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q238.js; sourceTree = "<group>"; };
+		7CA647A722F0A3DD00AA4B86 /* Q207.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q207.js; sourceTree = "<group>"; };
+		7CA647A822F0A3DD00AA4B86 /* Q227.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q227.js; sourceTree = "<group>"; };
+		7CA647A922F0A3DD00AA4B86 /* Q242.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q242.js; sourceTree = "<group>"; };
+		7CA647AA22F0A3DD00AA4B86 /* Q237.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q237.js; sourceTree = "<group>"; };
+		7CA647AB22F0A3DD00AA4B86 /* Q295.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q295.js; sourceTree = "<group>"; };
+		7CA647AC22F0A3DD00AA4B86 /* Q212.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q212.js; sourceTree = "<group>"; };
+		7CA647AD22F0A3DD00AA4B86 /* Q202.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q202.js; sourceTree = "<group>"; };
+		7CA647AE22F0A3DD00AA4B86 /* Q206.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q206.js; sourceTree = "<group>"; };
+		7CA647AF22F0A3DD00AA4B86 /* note.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = note.md; sourceTree = "<group>"; };
+		7CA647B122F0A3DD00AA4B86 /* Q334.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q334.js; sourceTree = "<group>"; };
+		7CA647B222F0A3DD00AA4B86 /* Q341.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q341.js; sourceTree = "<group>"; };
+		7CA647B322F0A3DD00AA4B86 /* Q324.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q324.js; sourceTree = "<group>"; };
+		7CA647B422F0A3DD00AA4B86 /* Q371.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q371.js; sourceTree = "<group>"; };
+		7CA647B522F0A3DD00AA4B86 /* Q344.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q344.js; sourceTree = "<group>"; };
+		7CA647B622F0A3DD00AA4B86 /* Q350.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q350.js; sourceTree = "<group>"; };
+		7CA647B722F0A3DD00AA4B86 /* Q387.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q387.js; sourceTree = "<group>"; };
+		7CA647B822F0A3DD00AA4B86 /* Q454.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q454.js; sourceTree = "<group>"; };
+		7CA647B922F0A3DD00AA4B86 /* Q328.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q328.js; sourceTree = "<group>"; };
+		7CA647BA22F0A3DD00AA4B86 /* Q329.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q329.js; sourceTree = "<group>"; };
+		7CA647BB22F0A3DD00AA4B86 /* Q378.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q378.js; sourceTree = "<group>"; };
+		7CA647BC22F0A3DD00AA4B86 /* Q322.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q322.js; sourceTree = "<group>"; };
+		7CA647BD22F0A3DD00AA4B86 /* Q380.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q380.js; sourceTree = "<group>"; };
+		7CA647BE22F0A3DD00AA4B86 /* Q347.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q347.js; sourceTree = "<group>"; };
+		7CA647BF22F0A3DD00AA4B86 /* Q326.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q326.js; sourceTree = "<group>"; };
+		7CA647C022F0A3DD00AA4B86 /* Q384.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q384.js; sourceTree = "<group>"; };
+		7CA647C122F0A3DD00AA4B86 /* Q395.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q395.js; sourceTree = "<group>"; };
+		7CA647C322F0A3DD00AA4B86 /* Q21.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q21.js; sourceTree = "<group>"; };
+		7CA647C422F0A3DD00AA4B86 /* Q70.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q70.js; sourceTree = "<group>"; };
+		7CA647C522F0A3DD00AA4B86 /* Q44.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q44.js; sourceTree = "<group>"; };
+		7CA647C622F0A3DD00AA4B86 /* Q15.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q15.js; sourceTree = "<group>"; };
+		7CA647C722F0A3DD00AA4B86 /* Q54.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q54.js; sourceTree = "<group>"; };
+		7CA647C822F0A3DD00AA4B86 /* Q11.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q11.js; sourceTree = "<group>"; };
+		7CA647C922F0A3DD00AA4B86 /* Q50.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q50.js; sourceTree = "<group>"; };
+		7CA647CA22F0A3DD00AA4B86 /* Q10.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q10.js; sourceTree = "<group>"; };
+		7CA647CB22F0A3DD00AA4B86 /* Q41.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q41.js; sourceTree = "<group>"; };
+		7CA647CC22F0A3DD00AA4B86 /* Q75.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q75.js; sourceTree = "<group>"; };
+		7CA647CD22F0A3DD00AA4B86 /* Q34.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q34.js; sourceTree = "<group>"; };
+		7CA647CE22F0A3DD00AA4B86 /* Q20.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q20.js; sourceTree = "<group>"; };
+		7CA647CF22F0A3DD00AA4B86 /* Q14.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q14.js; sourceTree = "<group>"; };
+		7CA647D022F0A3DD00AA4B86 /* Q55.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q55.js; sourceTree = "<group>"; };
+		7CA647D122F0A3DD00AA4B86 /* Q1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q1.js; sourceTree = "<group>"; };
+		7CA647D222F0A3DD00AA4B86 /* Q5.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q5.js; sourceTree = "<group>"; };
+		7CA647D322F0A3DD00AA4B86 /* Q4.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q4.js; sourceTree = "<group>"; };
+		7CA647D422F0A3DD00AA4B86 /* Q88.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q88.js; sourceTree = "<group>"; };
+		7CA647D522F0A3DD00AA4B86 /* Q98.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q98.js; sourceTree = "<group>"; };
+		7CA647D622F0A3DD00AA4B86 /* Q48.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q48.js; sourceTree = "<group>"; };
+		7CA647D722F0A3DD00AA4B86 /* Q19.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q19.js; sourceTree = "<group>"; };
+		7CA647D822F0A3DD00AA4B86 /* Q7.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q7.js; sourceTree = "<group>"; };
+		7CA647D922F0A3DD00AA4B86 /* Q78.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q78.js; sourceTree = "<group>"; };
+		7CA647DA22F0A3DD00AA4B86 /* Q29.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q29.js; sourceTree = "<group>"; };
+		7CA647DB22F0A3DD00AA4B86 /* Q3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q3.js; sourceTree = "<group>"; };
+		7CA647DC22F0A3DD00AA4B86 /* Q79.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q79.js; sourceTree = "<group>"; };
+		7CA647DD22F0A3DD00AA4B86 /* Q28.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q28.js; sourceTree = "<group>"; };
+		7CA647DE22F0A3DD00AA4B86 /* Q38.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q38.js; sourceTree = "<group>"; };
+		7CA647DF22F0A3DD00AA4B86 /* Q69.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q69.js; sourceTree = "<group>"; };
+		7CA647E022F0A3DD00AA4B86 /* Q2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q2.js; sourceTree = "<group>"; };
+		7CA647E122F0A3DD00AA4B86 /* Q49.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q49.js; sourceTree = "<group>"; };
+		7CA647E222F0A3DD00AA4B86 /* Q6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q6.js; sourceTree = "<group>"; };
+		7CA647E322F0A3DD00AA4B86 /* Q42.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q42.js; sourceTree = "<group>"; };
+		7CA647E422F0A3DD00AA4B86 /* Q13.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q13.js; sourceTree = "<group>"; };
+		7CA647E522F0A3DD00AA4B86 /* Q76.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q76.js; sourceTree = "<group>"; };
+		7CA647E622F0A3DD00AA4B86 /* Q66.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q66.js; sourceTree = "<group>"; };
+		7CA647E722F0A3DD00AA4B86 /* Q23.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q23.js; sourceTree = "<group>"; };
+		7CA647E822F0A3DD00AA4B86 /* Q17.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q17.js; sourceTree = "<group>"; };
+		7CA647E922F0A3DD00AA4B86 /* Q46.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q46.js; sourceTree = "<group>"; };
+		7CA647EA22F0A3DD00AA4B86 /* Q9.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q9.js; sourceTree = "<group>"; };
+		7CA647EB22F0A3DD00AA4B86 /* Q56.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q56.js; sourceTree = "<group>"; };
+		7CA647EC22F0A3DD00AA4B86 /* Q91.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q91.js; sourceTree = "<group>"; };
+		7CA647ED22F0A3DD00AA4B86 /* Q33.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q33.js; sourceTree = "<group>"; };
+		7CA647EE22F0A3DD00AA4B86 /* Q62.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q62.js; sourceTree = "<group>"; };
+		7CA647EF22F0A3DD00AA4B86 /* Q73.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q73.js; sourceTree = "<group>"; };
+		7CA647F022F0A3DD00AA4B86 /* Q22.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q22.js; sourceTree = "<group>"; };
+		7CA647F122F0A3DD00AA4B86 /* Q16.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q16.js; sourceTree = "<group>"; };
+		7CA647F222F0A3DD00AA4B86 /* Q8.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q8.js; sourceTree = "<group>"; };
+		7CA647F322F0A3DD00AA4B86 /* Q12.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q12.js; sourceTree = "<group>"; };
+		7CA647F422F0A3DD00AA4B86 /* Q26.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q26.js; sourceTree = "<group>"; };
+		7CA647F522F0A3DD00AA4B86 /* Q84.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q84.js; sourceTree = "<group>"; };
+		7CA647F622F0A3DD00AA4B86 /* Q94.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q94.js; sourceTree = "<group>"; };
+		7CA647F722F0A3DD00AA4B86 /* Q36.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q36.js; sourceTree = "<group>"; };
+		7CA647F822F0A3DD00AA4B86 /* Q53.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q53.js; sourceTree = "<group>"; };
+		7CA647FB22F0A3DD00AA4B86 /* sort_quick_3way.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_quick_3way.js; sourceTree = "<group>"; };
+		7CA647FC22F0A3DD00AA4B86 /* sort_quick.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_quick.js; sourceTree = "<group>"; };
+		7CA647FD22F0A3DD00AA4B86 /* sort_max_pq_02.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_max_pq_02.js; sourceTree = "<group>"; };
+		7CA647FE22F0A3DD00AA4B86 /* sort_shell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_shell.js; sourceTree = "<group>"; };
+		7CA647FF22F0A3DD00AA4B86 /* sort_merge_b2t.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_merge_b2t.js; sourceTree = "<group>"; };
+		7CA6480022F0A3DD00AA4B86 /* sort_max_pq.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_max_pq.js; sourceTree = "<group>"; };
+		7CA6480122F0A3DD00AA4B86 /* sort_selection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_selection.js; sourceTree = "<group>"; };
+		7CA6480222F0A3DD00AA4B86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CA6480322F0A3DD00AA4B86 /* sort_insert.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_insert.js; sourceTree = "<group>"; };
+		7CA6480422F0A3DD00AA4B86 /* sort_merge_t2b.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_merge_t2b.js; sourceTree = "<group>"; };
+		7CA6480622F0A3DD00AA4B86 /* image_bfs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = image_bfs.js; sourceTree = "<group>"; };
+		7CA6480722F0A3DD00AA4B86 /* image_dfs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = image_dfs.js; sourceTree = "<group>"; };
+		7CA6480922F0A3DD00AA4B86 /* search_linklist.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_linklist.js; sourceTree = "<group>"; };
+		7CA6480A22F0A3DD00AA4B86 /* search_bst.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_bst.js; sourceTree = "<group>"; };
+		7CA6480B22F0A3DD00AA4B86 /* search_binary.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_binary.js; sourceTree = "<group>"; };
+		7CA6480C22F0A3DD00AA4B86 /* search_linear.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_linear.js; sourceTree = "<group>"; };
+		7CA6480D22F0A3DD00AA4B86 /* search_zipper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_zipper.js; sourceTree = "<group>"; };
+		7CA6480E22F0A3DD00AA4B86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CA6481022F0A3DD00AA4B86 /* search_kmp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_kmp.js; sourceTree = "<group>"; };
+		7CA6481122F0A3DD00AA4B86 /* search_rk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_rk.js; sourceTree = "<group>"; };
+		7CA6481222F0A3DD00AA4B86 /* sort_quick_3_string.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_quick_3_string.js; sourceTree = "<group>"; };
+		7CA6481322F0A3DD00AA4B86 /* sort_index_count.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_index_count.js; sourceTree = "<group>"; };
+		7CA6481422F0A3DD00AA4B86 /* search_violence.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_violence.js; sourceTree = "<group>"; };
+		7CA6481522F0A3DD00AA4B86 /* sort_lsd.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_lsd.js; sourceTree = "<group>"; };
+		7CA6481622F0A3DD00AA4B86 /* sort_msd.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sort_msd.js; sourceTree = "<group>"; };
+		7CA6481722F0A3DD00AA4B86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CA6481822F0A3DD00AA4B86 /* search_violence_2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_violence_2.js; sourceTree = "<group>"; };
+		7CA6481922F0A3DD00AA4B86 /* trie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = trie.js; sourceTree = "<group>"; };
+		7CA6481A22F0A3DD00AA4B86 /* search_bm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search_bm.js; sourceTree = "<group>"; };
+		7CA6481B22F0A3DD00AA4B86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CA6481C22F0A3DD00AA4B86 /* LeetCodeACByJS-master.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "LeetCodeACByJS-master.zip"; sourceTree = "<group>"; };
+		7CA6481D22F0A3DD00AA4B86 /* PalindromeNode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PalindromeNode.js; sourceTree = "<group>"; };
+		7CA6481E22F0A3DD00AA4B86 /* nodeReverse.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nodeReverse.js; sourceTree = "<group>"; };
+		7CA6481F22F0A3DD00AA4B86 /* 1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 1.js; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
@@ -111,6 +558,643 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
+		7CA6470A22EF44A900AA4B86 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6470C22F09C3D00AA4B86 /* Creater */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		7CA6470C22F09C3D00AA4B86 /* Creater */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6470D22F09C4900AA4B86 /* Propotype */,
+			);
+			path = Creater;
+			sourceTree = "<group>";
+		};
+		7CA6470D22F09C4900AA4B86 /* Propotype */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6470E22F09CA300AA4B86 /* Prototype.h */,
+				7CA6470F22F09CA300AA4B86 /* Prototype.m */,
+			);
+			path = Propotype;
+			sourceTree = "<group>";
+		};
+		7CA6471122F0A3DD00AA4B86 /* 知识脑图 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6471222F0A3DD00AA4B86 /* 网络协议.mindnode */,
+				7CA6471D22F0A3DD00AA4B86 /* web安全.mindnode */,
+				7CA6472622F0A3DD00AA4B86 /* 进程和线程.mindnode */,
+				7CA6472F22F0A3DD00AA4B86 /* 事件传递和响应.mindnode */,
+				7CA6473822F0A3DD00AA4B86 /* https加密.mindnode */,
+				7CA6474122F0A3DD00AA4B86 /* 设计模式.mindnode */,
+				7CA6474A22F0A3DD00AA4B86 /* load和initialize.mindnode */,
+				7CA6475322F0A3DD00AA4B86 /* 算法.mindnode */,
+				7CA6475C22F0A3DD00AA4B86 /* Block.mindnode */,
+			);
+			path = "知识脑图";
+			sourceTree = "<group>";
+		};
+		7CA6471222F0A3DD00AA4B86 /* 网络协议.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6471322F0A3DD00AA4B86 /* contents.xml */,
+				7CA6471422F0A3DD00AA4B86 /* QuickLook */,
+				7CA6471622F0A3DD00AA4B86 /* resources */,
+				7CA6471922F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6471A22F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "网络协议.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6471422F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6471522F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6471622F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6471722F0A3DD00AA4B86 /* 4E116564-28E9-476F-8DCF-3B1C3451CFDB.png */,
+				7CA6471822F0A3DD00AA4B86 /* 273D41CB-D6E8-4847-A144-133D88704023.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6471A22F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6471B22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6471C22F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6471D22F0A3DD00AA4B86 /* web安全.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6471E22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6471F22F0A3DD00AA4B86 /* QuickLook */,
+				7CA6472122F0A3DD00AA4B86 /* resources */,
+				7CA6472222F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6472322F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "web安全.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6471F22F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6472022F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6472122F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6472322F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6472422F0A3DD00AA4B86 /* contents.xml */,
+				7CA6472522F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6472622F0A3DD00AA4B86 /* 进程和线程.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6472722F0A3DD00AA4B86 /* contents.xml */,
+				7CA6472822F0A3DD00AA4B86 /* QuickLook */,
+				7CA6472A22F0A3DD00AA4B86 /* resources */,
+				7CA6472B22F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6472C22F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "进程和线程.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6472822F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6472922F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6472A22F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6472C22F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6472D22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6472E22F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6472F22F0A3DD00AA4B86 /* 事件传递和响应.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6473022F0A3DD00AA4B86 /* contents.xml */,
+				7CA6473122F0A3DD00AA4B86 /* QuickLook */,
+				7CA6473322F0A3DD00AA4B86 /* resources */,
+				7CA6473422F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6473522F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "事件传递和响应.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6473122F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6473222F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6473322F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6473522F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6473622F0A3DD00AA4B86 /* contents.xml */,
+				7CA6473722F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6473822F0A3DD00AA4B86 /* https加密.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6473922F0A3DD00AA4B86 /* contents.xml */,
+				7CA6473A22F0A3DD00AA4B86 /* QuickLook */,
+				7CA6473C22F0A3DD00AA4B86 /* resources */,
+				7CA6473D22F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6473E22F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "https加密.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6473A22F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6473B22F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6473C22F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6473E22F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6473F22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6474022F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6474122F0A3DD00AA4B86 /* 设计模式.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6474222F0A3DD00AA4B86 /* contents.xml */,
+				7CA6474322F0A3DD00AA4B86 /* QuickLook */,
+				7CA6474522F0A3DD00AA4B86 /* resources */,
+				7CA6474622F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6474722F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "设计模式.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6474322F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6474422F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6474522F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6474722F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6474822F0A3DD00AA4B86 /* contents.xml */,
+				7CA6474922F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6474A22F0A3DD00AA4B86 /* load和initialize.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6474B22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6474C22F0A3DD00AA4B86 /* QuickLook */,
+				7CA6474E22F0A3DD00AA4B86 /* resources */,
+				7CA6474F22F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6475022F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "load和initialize.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6474C22F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6474D22F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6474E22F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6475022F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6475122F0A3DD00AA4B86 /* contents.xml */,
+				7CA6475222F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6475322F0A3DD00AA4B86 /* 算法.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6475422F0A3DD00AA4B86 /* contents.xml */,
+				7CA6475522F0A3DD00AA4B86 /* QuickLook */,
+				7CA6475722F0A3DD00AA4B86 /* resources */,
+				7CA6475822F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6475922F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = "算法.mindnode";
+			sourceTree = "<group>";
+		};
+		7CA6475522F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6475622F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6475722F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6475922F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6475A22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6475B22F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6475C22F0A3DD00AA4B86 /* Block.mindnode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6475D22F0A3DD00AA4B86 /* contents.xml */,
+				7CA6475E22F0A3DD00AA4B86 /* QuickLook */,
+				7CA6476022F0A3DD00AA4B86 /* resources */,
+				7CA6476122F0A3DD00AA4B86 /* viewState.plist */,
+				7CA6476222F0A3DD00AA4B86 /* style.mindnodestyle */,
+			);
+			path = Block.mindnode;
+			sourceTree = "<group>";
+		};
+		7CA6475E22F0A3DD00AA4B86 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6475F22F0A3DD00AA4B86 /* Preview.jpg */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		7CA6476022F0A3DD00AA4B86 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7CA6476222F0A3DD00AA4B86 /* style.mindnodestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6476322F0A3DD00AA4B86 /* contents.xml */,
+				7CA6476422F0A3DD00AA4B86 /* metadata.plist */,
+			);
+			path = style.mindnodestyle;
+			sourceTree = "<group>";
+		};
+		7CA6476522F0A3DD00AA4B86 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6476622F0A3DD00AA4B86 /* sort.js */,
+				7CA6476722F0A3DD00AA4B86 /* isPalindrome.js */,
+				7CA6476822F0A3DD00AA4B86 /* LeetCodeACByJS-master */,
+				7CA6481C22F0A3DD00AA4B86 /* LeetCodeACByJS-master.zip */,
+				7CA6481D22F0A3DD00AA4B86 /* PalindromeNode.js */,
+				7CA6481E22F0A3DD00AA4B86 /* nodeReverse.js */,
+				7CA6481F22F0A3DD00AA4B86 /* 1.js */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		7CA6476822F0A3DD00AA4B86 /* LeetCodeACByJS-master */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6476922F0A3DD00AA4B86 /* sort.js */,
+				7CA6476A22F0A3DD00AA4B86 /* index.html */,
+				7CA6476B22F0A3DD00AA4B86 /* Solutions */,
+				7CA647F922F0A3DD00AA4B86 /* ALGs */,
+				7CA6481B22F0A3DD00AA4B86 /* README.md */,
+			);
+			path = "LeetCodeACByJS-master";
+			sourceTree = "<group>";
+		};
+		7CA6476B22F0A3DD00AA4B86 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6476C22F0A3DD00AA4B86 /* Q101-Q200 */,
+				7CA6479422F0A3DD00AA4B86 /* Q201-Q300 */,
+				7CA647AF22F0A3DD00AA4B86 /* note.md */,
+				7CA647B022F0A3DD00AA4B86 /* Q301-Q454 */,
+				7CA647C222F0A3DD00AA4B86 /* Q001-Q100 */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		7CA6476C22F0A3DD00AA4B86 /* Q101-Q200 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6476D22F0A3DD00AA4B86 /* Q116.js */,
+				7CA6476E22F0A3DD00AA4B86 /* Q122.js */,
+				7CA6476F22F0A3DD00AA4B86 /* Q190.js */,
+				7CA6477022F0A3DD00AA4B86 /* Q102.js */,
+				7CA6477122F0A3DD00AA4B86 /* Q136.js */,
+				7CA6477222F0A3DD00AA4B86 /* Q127.js */,
+				7CA6477322F0A3DD00AA4B86 /* Q152.js */,
+				7CA6477422F0A3DD00AA4B86 /* Q166.js */,
+				7CA6477522F0A3DD00AA4B86 /* Q146.js */,
+				7CA6477622F0A3DD00AA4B86 /* Q172.js */,
+				7CA6477722F0A3DD00AA4B86 /* Q162.js */,
+				7CA6477822F0A3DD00AA4B86 /* Q200.js */,
+				7CA6477922F0A3DD00AA4B86 /* Q191.js */,
+				7CA6477A22F0A3DD00AA4B86 /* Q179.js */,
+				7CA6477B22F0A3DD00AA4B86 /* Q128.js */,
+				7CA6477C22F0A3DD00AA4B86 /* Q138.js */,
+				7CA6477D22F0A3DD00AA4B86 /* Q169.js */,
+				7CA6477E22F0A3DD00AA4B86 /* Q149.js */,
+				7CA6477F22F0A3DD00AA4B86 /* Q118.js */,
+				7CA6478022F0A3DD00AA4B86 /* Q108.js */,
+				7CA6478122F0A3DD00AA4B86 /* Q148.js */,
+				7CA6478222F0A3DD00AA4B86 /* Q139.js */,
+				7CA6478322F0A3DD00AA4B86 /* Q127-DFS-TLE.js */,
+				7CA6478422F0A3DD00AA4B86 /* Q198.js */,
+				7CA6478522F0A3DD00AA4B86 /* Q189.js */,
+				7CA6478622F0A3DD00AA4B86 /* Q124.js */,
+				7CA6478722F0A3DD00AA4B86 /* Q141.js */,
+				7CA6478822F0A3DD00AA4B86 /* Q171.js */,
+				7CA6478922F0A3DD00AA4B86 /* Q130.js */,
+				7CA6478A22F0A3DD00AA4B86 /* Q104.js */,
+				7CA6478B22F0A3DD00AA4B86 /* Q155.js */,
+				7CA6478C22F0A3DD00AA4B86 /* Q121.js */,
+				7CA6478D22F0A3DD00AA4B86 /* Q160.js */,
+				7CA6478E22F0A3DD00AA4B86 /* Q131.js */,
+				7CA6478F22F0A3DD00AA4B86 /* Q105.js */,
+				7CA6479022F0A3DD00AA4B86 /* Q125.js */,
+				7CA6479122F0A3DD00AA4B86 /* Q140.js */,
+				7CA6479222F0A3DD00AA4B86 /* Q150.js */,
+				7CA6479322F0A3DD00AA4B86 /* Q101.js */,
+			);
+			path = "Q101-Q200";
+			sourceTree = "<group>";
+		};
+		7CA6479422F0A3DD00AA4B86 /* Q201-Q300 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6479522F0A3DD00AA4B86 /* Q287.js */,
+				7CA6479622F0A3DD00AA4B86 /* Q300.js */,
+				7CA6479722F0A3DD00AA4B86 /* Q240.js */,
+				7CA6479822F0A3DD00AA4B86 /* Q297.js */,
+				7CA6479922F0A3DD00AA4B86 /* Q235.js */,
+				7CA6479A22F0A3DD00AA4B86 /* Q215.js */,
+				7CA6479B22F0A3DD00AA4B86 /* Q283.js */,
+				7CA6479C22F0A3DD00AA4B86 /* Q230.js */,
+				7CA6479D22F0A3DD00AA4B86 /* Q204.js */,
+				7CA6479E22F0A3DD00AA4B86 /* Q210.js */,
+				7CA6479F22F0A3DD00AA4B86 /* Q234.js */,
+				7CA647A022F0A3DD00AA4B86 /* Q289.js */,
+				7CA647A122F0A3DD00AA4B86 /* Q268.js */,
+				7CA647A222F0A3DD00AA4B86 /* Q239.js */,
+				7CA647A322F0A3DD00AA4B86 /* Q218.js */,
+				7CA647A422F0A3DD00AA4B86 /* Q208.js */,
+				7CA647A522F0A3DD00AA4B86 /* Q279.js */,
+				7CA647A622F0A3DD00AA4B86 /* Q238.js */,
+				7CA647A722F0A3DD00AA4B86 /* Q207.js */,
+				7CA647A822F0A3DD00AA4B86 /* Q227.js */,
+				7CA647A922F0A3DD00AA4B86 /* Q242.js */,
+				7CA647AA22F0A3DD00AA4B86 /* Q237.js */,
+				7CA647AB22F0A3DD00AA4B86 /* Q295.js */,
+				7CA647AC22F0A3DD00AA4B86 /* Q212.js */,
+				7CA647AD22F0A3DD00AA4B86 /* Q202.js */,
+				7CA647AE22F0A3DD00AA4B86 /* Q206.js */,
+			);
+			path = "Q201-Q300";
+			sourceTree = "<group>";
+		};
+		7CA647B022F0A3DD00AA4B86 /* Q301-Q454 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA647B122F0A3DD00AA4B86 /* Q334.js */,
+				7CA647B222F0A3DD00AA4B86 /* Q341.js */,
+				7CA647B322F0A3DD00AA4B86 /* Q324.js */,
+				7CA647B422F0A3DD00AA4B86 /* Q371.js */,
+				7CA647B522F0A3DD00AA4B86 /* Q344.js */,
+				7CA647B622F0A3DD00AA4B86 /* Q350.js */,
+				7CA647B722F0A3DD00AA4B86 /* Q387.js */,
+				7CA647B822F0A3DD00AA4B86 /* Q454.js */,
+				7CA647B922F0A3DD00AA4B86 /* Q328.js */,
+				7CA647BA22F0A3DD00AA4B86 /* Q329.js */,
+				7CA647BB22F0A3DD00AA4B86 /* Q378.js */,
+				7CA647BC22F0A3DD00AA4B86 /* Q322.js */,
+				7CA647BD22F0A3DD00AA4B86 /* Q380.js */,
+				7CA647BE22F0A3DD00AA4B86 /* Q347.js */,
+				7CA647BF22F0A3DD00AA4B86 /* Q326.js */,
+				7CA647C022F0A3DD00AA4B86 /* Q384.js */,
+				7CA647C122F0A3DD00AA4B86 /* Q395.js */,
+			);
+			path = "Q301-Q454";
+			sourceTree = "<group>";
+		};
+		7CA647C222F0A3DD00AA4B86 /* Q001-Q100 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA647C322F0A3DD00AA4B86 /* Q21.js */,
+				7CA647C422F0A3DD00AA4B86 /* Q70.js */,
+				7CA647C522F0A3DD00AA4B86 /* Q44.js */,
+				7CA647C622F0A3DD00AA4B86 /* Q15.js */,
+				7CA647C722F0A3DD00AA4B86 /* Q54.js */,
+				7CA647C822F0A3DD00AA4B86 /* Q11.js */,
+				7CA647C922F0A3DD00AA4B86 /* Q50.js */,
+				7CA647CA22F0A3DD00AA4B86 /* Q10.js */,
+				7CA647CB22F0A3DD00AA4B86 /* Q41.js */,
+				7CA647CC22F0A3DD00AA4B86 /* Q75.js */,
+				7CA647CD22F0A3DD00AA4B86 /* Q34.js */,
+				7CA647CE22F0A3DD00AA4B86 /* Q20.js */,
+				7CA647CF22F0A3DD00AA4B86 /* Q14.js */,
+				7CA647D022F0A3DD00AA4B86 /* Q55.js */,
+				7CA647D122F0A3DD00AA4B86 /* Q1.js */,
+				7CA647D222F0A3DD00AA4B86 /* Q5.js */,
+				7CA647D322F0A3DD00AA4B86 /* Q4.js */,
+				7CA647D422F0A3DD00AA4B86 /* Q88.js */,
+				7CA647D522F0A3DD00AA4B86 /* Q98.js */,
+				7CA647D622F0A3DD00AA4B86 /* Q48.js */,
+				7CA647D722F0A3DD00AA4B86 /* Q19.js */,
+				7CA647D822F0A3DD00AA4B86 /* Q7.js */,
+				7CA647D922F0A3DD00AA4B86 /* Q78.js */,
+				7CA647DA22F0A3DD00AA4B86 /* Q29.js */,
+				7CA647DB22F0A3DD00AA4B86 /* Q3.js */,
+				7CA647DC22F0A3DD00AA4B86 /* Q79.js */,
+				7CA647DD22F0A3DD00AA4B86 /* Q28.js */,
+				7CA647DE22F0A3DD00AA4B86 /* Q38.js */,
+				7CA647DF22F0A3DD00AA4B86 /* Q69.js */,
+				7CA647E022F0A3DD00AA4B86 /* Q2.js */,
+				7CA647E122F0A3DD00AA4B86 /* Q49.js */,
+				7CA647E222F0A3DD00AA4B86 /* Q6.js */,
+				7CA647E322F0A3DD00AA4B86 /* Q42.js */,
+				7CA647E422F0A3DD00AA4B86 /* Q13.js */,
+				7CA647E522F0A3DD00AA4B86 /* Q76.js */,
+				7CA647E622F0A3DD00AA4B86 /* Q66.js */,
+				7CA647E722F0A3DD00AA4B86 /* Q23.js */,
+				7CA647E822F0A3DD00AA4B86 /* Q17.js */,
+				7CA647E922F0A3DD00AA4B86 /* Q46.js */,
+				7CA647EA22F0A3DD00AA4B86 /* Q9.js */,
+				7CA647EB22F0A3DD00AA4B86 /* Q56.js */,
+				7CA647EC22F0A3DD00AA4B86 /* Q91.js */,
+				7CA647ED22F0A3DD00AA4B86 /* Q33.js */,
+				7CA647EE22F0A3DD00AA4B86 /* Q62.js */,
+				7CA647EF22F0A3DD00AA4B86 /* Q73.js */,
+				7CA647F022F0A3DD00AA4B86 /* Q22.js */,
+				7CA647F122F0A3DD00AA4B86 /* Q16.js */,
+				7CA647F222F0A3DD00AA4B86 /* Q8.js */,
+				7CA647F322F0A3DD00AA4B86 /* Q12.js */,
+				7CA647F422F0A3DD00AA4B86 /* Q26.js */,
+				7CA647F522F0A3DD00AA4B86 /* Q84.js */,
+				7CA647F622F0A3DD00AA4B86 /* Q94.js */,
+				7CA647F722F0A3DD00AA4B86 /* Q36.js */,
+				7CA647F822F0A3DD00AA4B86 /* Q53.js */,
+			);
+			path = "Q001-Q100";
+			sourceTree = "<group>";
+		};
+		7CA647F922F0A3DD00AA4B86 /* ALGs */ = {
+			isa = PBXGroup;
+			children = (
+				7CA647FA22F0A3DD00AA4B86 /* sort */,
+				7CA6480522F0A3DD00AA4B86 /* image */,
+				7CA6480822F0A3DD00AA4B86 /* search */,
+				7CA6480E22F0A3DD00AA4B86 /* README.md */,
+				7CA6480F22F0A3DD00AA4B86 /* string */,
+			);
+			path = ALGs;
+			sourceTree = "<group>";
+		};
+		7CA647FA22F0A3DD00AA4B86 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				7CA647FB22F0A3DD00AA4B86 /* sort_quick_3way.js */,
+				7CA647FC22F0A3DD00AA4B86 /* sort_quick.js */,
+				7CA647FD22F0A3DD00AA4B86 /* sort_max_pq_02.js */,
+				7CA647FE22F0A3DD00AA4B86 /* sort_shell.js */,
+				7CA647FF22F0A3DD00AA4B86 /* sort_merge_b2t.js */,
+				7CA6480022F0A3DD00AA4B86 /* sort_max_pq.js */,
+				7CA6480122F0A3DD00AA4B86 /* sort_selection.js */,
+				7CA6480222F0A3DD00AA4B86 /* README.md */,
+				7CA6480322F0A3DD00AA4B86 /* sort_insert.js */,
+				7CA6480422F0A3DD00AA4B86 /* sort_merge_t2b.js */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
+		7CA6480522F0A3DD00AA4B86 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6480622F0A3DD00AA4B86 /* image_bfs.js */,
+				7CA6480722F0A3DD00AA4B86 /* image_dfs.js */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		7CA6480822F0A3DD00AA4B86 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6480922F0A3DD00AA4B86 /* search_linklist.js */,
+				7CA6480A22F0A3DD00AA4B86 /* search_bst.js */,
+				7CA6480B22F0A3DD00AA4B86 /* search_binary.js */,
+				7CA6480C22F0A3DD00AA4B86 /* search_linear.js */,
+				7CA6480D22F0A3DD00AA4B86 /* search_zipper.js */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		7CA6480F22F0A3DD00AA4B86 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6481022F0A3DD00AA4B86 /* search_kmp.js */,
+				7CA6481122F0A3DD00AA4B86 /* search_rk.js */,
+				7CA6481222F0A3DD00AA4B86 /* sort_quick_3_string.js */,
+				7CA6481322F0A3DD00AA4B86 /* sort_index_count.js */,
+				7CA6481422F0A3DD00AA4B86 /* search_violence.js */,
+				7CA6481522F0A3DD00AA4B86 /* sort_lsd.js */,
+				7CA6481622F0A3DD00AA4B86 /* sort_msd.js */,
+				7CA6481722F0A3DD00AA4B86 /* README.md */,
+				7CA6481822F0A3DD00AA4B86 /* search_violence_2.js */,
+				7CA6481922F0A3DD00AA4B86 /* trie.js */,
+				7CA6481A22F0A3DD00AA4B86 /* search_bm.js */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
 		7CDC9286222ACD10004F7E31 /* Block */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +1257,8 @@
 		CD82C42521ABA05600B3BAA0 = {
 			isa = PBXGroup;
 			children = (
+				7CA6476522F0A3DD00AA4B86 /* 算法 */,
+				7CA6471122F0A3DD00AA4B86 /* 知识脑图 */,
 				CD82C43021ABA05600B3BAA0 /* Knowledge */,
 				CD82C42F21ABA05600B3BAA0 /* Products */,
 			);
@@ -189,6 +1275,7 @@
 		CD82C43021ABA05600B3BAA0 /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6470A22EF44A900AA4B86 /* DesignPattern */,
 				7CA6470922EF445F00AA4B86 /* Algorithm */,
 				7CA646FC22EF428B00AA4B86 /* Events */,
 				7CDC9286222ACD10004F7E31 /* Block */,
@@ -267,10 +1354,232 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA648AC22F0A3DD00AA4B86 /* Q50.js in Resources */,
+				7CA6489C22F0A3DD00AA4B86 /* Q454.js in Resources */,
+				7CA6488B22F0A3DD00AA4B86 /* Q238.js in Resources */,
+				7CA648C322F0A3DE00AA4B86 /* Q2.js in Resources */,
+				7CA648E022F0A3DE00AA4B86 /* sort_merge_b2t.js in Resources */,
+				7CA6487122F0A3DD00AA4B86 /* Q155.js in Resources */,
+				7CA6484C22F0A3DD00AA4B86 /* viewState.plist in Resources */,
 				CD82C43E21ABA05A00B3BAA0 /* LaunchScreen.storyboard in Resources */,
+				7CA648E122F0A3DE00AA4B86 /* sort_max_pq.js in Resources */,
+				7CA648B922F0A3DD00AA4B86 /* Q48.js in Resources */,
+				7CA6484F22F0A3DD00AA4B86 /* sort.js in Resources */,
+				7CA648DA22F0A3DE00AA4B86 /* Q36.js in Resources */,
+				7CA6489B22F0A3DD00AA4B86 /* Q387.js in Resources */,
+				7CA6486D22F0A3DD00AA4B86 /* Q141.js in Resources */,
+				7CA648E922F0A3DE00AA4B86 /* search_bst.js in Resources */,
+				7CA6483D22F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA648D022F0A3DE00AA4B86 /* Q33.js in Resources */,
+				7CA6482822F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA6486B22F0A3DD00AA4B86 /* Q189.js in Resources */,
+				7CA6484822F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6484422F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA6483C22F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA648A322F0A3DD00AA4B86 /* Q326.js in Resources */,
+				7CA648D822F0A3DE00AA4B86 /* Q84.js in Resources */,
+				7CA648A422F0A3DD00AA4B86 /* Q384.js in Resources */,
+				7CA648DC22F0A3DE00AA4B86 /* sort_quick_3way.js in Resources */,
+				7CA6484022F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA648F022F0A3DE00AA4B86 /* sort_quick_3_string.js in Resources */,
+				7CA6487222F0A3DD00AA4B86 /* Q121.js in Resources */,
+				7CA648B822F0A3DD00AA4B86 /* Q98.js in Resources */,
+				7CA6487922F0A3DD00AA4B86 /* Q101.js in Resources */,
+				7CA6486922F0A3DD00AA4B86 /* Q127-DFS-TLE.js in Resources */,
+				7CA6485722F0A3DD00AA4B86 /* Q136.js in Resources */,
+				7CA6483A22F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA648AE22F0A3DD00AA4B86 /* Q41.js in Resources */,
+				7CA6488D22F0A3DD00AA4B86 /* Q227.js in Resources */,
+				7CA648E822F0A3DE00AA4B86 /* search_linklist.js in Resources */,
+				7CA6486222F0A3DD00AA4B86 /* Q138.js in Resources */,
+				7CA648D722F0A3DE00AA4B86 /* Q26.js in Resources */,
+				7CA648B722F0A3DD00AA4B86 /* Q88.js in Resources */,
+				7CA6487E22F0A3DD00AA4B86 /* Q235.js in Resources */,
+				7CA6488922F0A3DD00AA4B86 /* Q208.js in Resources */,
+				7CA648C922F0A3DE00AA4B86 /* Q66.js in Resources */,
+				7CA6489122F0A3DD00AA4B86 /* Q212.js in Resources */,
+				7CA648FC22F0A3DE00AA4B86 /* nodeReverse.js in Resources */,
+				7CA6486F22F0A3DD00AA4B86 /* Q130.js in Resources */,
+				7CA648B122F0A3DD00AA4B86 /* Q20.js in Resources */,
+				7CA6482222F0A3DD00AA4B86 /* 4E116564-28E9-476F-8DCF-3B1C3451CFDB.png in Resources */,
+				7CA648F222F0A3DE00AA4B86 /* search_violence.js in Resources */,
+				7CA648EC22F0A3DE00AA4B86 /* search_zipper.js in Resources */,
+				7CA648C622F0A3DE00AA4B86 /* Q42.js in Resources */,
+				7CA6483922F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6484A22F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA648F822F0A3DE00AA4B86 /* search_bm.js in Resources */,
+				7CA648F522F0A3DE00AA4B86 /* README.md in Resources */,
+				7CA6484122F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA648C422F0A3DE00AA4B86 /* Q49.js in Resources */,
+				7CA648C822F0A3DE00AA4B86 /* Q76.js in Resources */,
+				7CA648E522F0A3DE00AA4B86 /* sort_merge_t2b.js in Resources */,
+				7CA6484D22F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6482A22F0A3DD00AA4B86 /* contents.xml in Resources */,
 				CD82C44821AD186600B3BAA0 /* appName.plist in Resources */,
+				7CA6487F22F0A3DD00AA4B86 /* Q215.js in Resources */,
+				7CA6484922F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA6485122F0A3DD00AA4B86 /* sort.js in Resources */,
+				7CA6488E22F0A3DD00AA4B86 /* Q242.js in Resources */,
+				7CA6488322F0A3DD00AA4B86 /* Q210.js in Resources */,
+				7CA648F922F0A3DE00AA4B86 /* README.md in Resources */,
+				7CA6483522F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA648CE22F0A3DE00AA4B86 /* Q56.js in Resources */,
+				7CA648B522F0A3DD00AA4B86 /* Q5.js in Resources */,
+				7CA648D222F0A3DE00AA4B86 /* Q73.js in Resources */,
+				7CA648E322F0A3DE00AA4B86 /* README.md in Resources */,
+				7CA6487722F0A3DD00AA4B86 /* Q140.js in Resources */,
+				7CA6488722F0A3DD00AA4B86 /* Q239.js in Resources */,
+				7CA648BE22F0A3DE00AA4B86 /* Q3.js in Resources */,
+				7CA6489622F0A3DD00AA4B86 /* Q341.js in Resources */,
+				7CA6488422F0A3DD00AA4B86 /* Q234.js in Resources */,
+				7CA6488A22F0A3DD00AA4B86 /* Q279.js in Resources */,
+				7CA648CF22F0A3DE00AA4B86 /* Q91.js in Resources */,
+				7CA6484622F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA6486822F0A3DD00AA4B86 /* Q139.js in Resources */,
+				7CA6483322F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA648BB22F0A3DD00AA4B86 /* Q7.js in Resources */,
+				7CA6482C22F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6488022F0A3DD00AA4B86 /* Q283.js in Resources */,
+				7CA648BA22F0A3DD00AA4B86 /* Q19.js in Resources */,
+				7CA6484222F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA6489922F0A3DD00AA4B86 /* Q344.js in Resources */,
+				7CA6484722F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA6486522F0A3DD00AA4B86 /* Q118.js in Resources */,
+				7CA648DE22F0A3DE00AA4B86 /* sort_max_pq_02.js in Resources */,
+				7CA6489E22F0A3DD00AA4B86 /* Q329.js in Resources */,
+				7CA6487022F0A3DD00AA4B86 /* Q104.js in Resources */,
+				7CA648FA22F0A3DE00AA4B86 /* LeetCodeACByJS-master.zip in Resources */,
+				7CA648C722F0A3DE00AA4B86 /* Q13.js in Resources */,
+				7CA648E722F0A3DE00AA4B86 /* image_dfs.js in Resources */,
+				7CA6487622F0A3DD00AA4B86 /* Q125.js in Resources */,
+				7CA648A022F0A3DD00AA4B86 /* Q322.js in Resources */,
+				7CA648D122F0A3DE00AA4B86 /* Q62.js in Resources */,
+				7CA648E422F0A3DE00AA4B86 /* sort_insert.js in Resources */,
+				7CA648E622F0A3DE00AA4B86 /* image_bfs.js in Resources */,
+				7CA648D422F0A3DE00AA4B86 /* Q16.js in Resources */,
+				7CA6486322F0A3DD00AA4B86 /* Q169.js in Resources */,
+				7CA6485F22F0A3DD00AA4B86 /* Q191.js in Resources */,
+				7CA648C122F0A3DE00AA4B86 /* Q38.js in Resources */,
+				7CA6484E22F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA6482622F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA6487822F0A3DD00AA4B86 /* Q150.js in Resources */,
+				7CA648A922F0A3DD00AA4B86 /* Q15.js in Resources */,
+				7CA648DD22F0A3DE00AA4B86 /* sort_quick.js in Resources */,
+				7CA648B322F0A3DD00AA4B86 /* Q55.js in Resources */,
+				7CA6485322F0A3DD00AA4B86 /* Q116.js in Resources */,
+				7CA648A722F0A3DD00AA4B86 /* Q70.js in Resources */,
+				7CA6486022F0A3DD00AA4B86 /* Q179.js in Resources */,
+				7CA648AB22F0A3DD00AA4B86 /* Q11.js in Resources */,
+				7CA6482522F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA648B222F0A3DD00AA4B86 /* Q14.js in Resources */,
+				7CA6483022F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA648A222F0A3DD00AA4B86 /* Q347.js in Resources */,
+				7CA648EF22F0A3DE00AA4B86 /* search_rk.js in Resources */,
+				7CA6486C22F0A3DD00AA4B86 /* Q124.js in Resources */,
+				7CA648A622F0A3DD00AA4B86 /* Q21.js in Resources */,
+				7CA6486622F0A3DD00AA4B86 /* Q108.js in Resources */,
+				7CA6482122F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA648D622F0A3DE00AA4B86 /* Q12.js in Resources */,
+				7CA6489722F0A3DD00AA4B86 /* Q324.js in Resources */,
+				7CA6488522F0A3DD00AA4B86 /* Q289.js in Resources */,
+				7CA6489022F0A3DD00AA4B86 /* Q295.js in Resources */,
+				7CA6489D22F0A3DD00AA4B86 /* Q328.js in Resources */,
+				7CA6488122F0A3DD00AA4B86 /* Q230.js in Resources */,
+				7CA6486122F0A3DD00AA4B86 /* Q128.js in Resources */,
+				7CA648AD22F0A3DD00AA4B86 /* Q10.js in Resources */,
+				7CA6488C22F0A3DD00AA4B86 /* Q207.js in Resources */,
+				7CA6482922F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA6486E22F0A3DD00AA4B86 /* Q171.js in Resources */,
+				7CA6487B22F0A3DD00AA4B86 /* Q300.js in Resources */,
+				7CA648CC22F0A3DE00AA4B86 /* Q46.js in Resources */,
+				7CA6484522F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6485822F0A3DD00AA4B86 /* Q127.js in Resources */,
+				7CA6483122F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA648DF22F0A3DE00AA4B86 /* sort_shell.js in Resources */,
+				7CA6485A22F0A3DD00AA4B86 /* Q166.js in Resources */,
+				7CA6489322F0A3DD00AA4B86 /* Q206.js in Resources */,
+				7CA6483422F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA648EA22F0A3DE00AA4B86 /* search_binary.js in Resources */,
+				7CA6488822F0A3DD00AA4B86 /* Q218.js in Resources */,
+				7CA648B422F0A3DD00AA4B86 /* Q1.js in Resources */,
+				7CA648EB22F0A3DE00AA4B86 /* search_linear.js in Resources */,
+				7CA6483222F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA648F622F0A3DE00AA4B86 /* search_violence_2.js in Resources */,
+				7CA6482B22F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA6482322F0A3DD00AA4B86 /* 273D41CB-D6E8-4847-A144-133D88704023.png in Resources */,
+				7CA648C022F0A3DE00AA4B86 /* Q28.js in Resources */,
+				7CA6486722F0A3DD00AA4B86 /* Q148.js in Resources */,
+				7CA6485622F0A3DD00AA4B86 /* Q102.js in Resources */,
+				7CA6487A22F0A3DD00AA4B86 /* Q287.js in Resources */,
+				7CA6485D22F0A3DD00AA4B86 /* Q162.js in Resources */,
+				7CA648FD22F0A3DE00AA4B86 /* 1.js in Resources */,
+				7CA648F722F0A3DE00AA4B86 /* trie.js in Resources */,
+				7CA648CB22F0A3DE00AA4B86 /* Q17.js in Resources */,
+				7CA648BF22F0A3DE00AA4B86 /* Q79.js in Resources */,
+				7CA6482E22F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA6488622F0A3DD00AA4B86 /* Q268.js in Resources */,
+				7CA6483822F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA648DB22F0A3DE00AA4B86 /* Q53.js in Resources */,
+				7CA648C222F0A3DE00AA4B86 /* Q69.js in Resources */,
+				7CA648AF22F0A3DD00AA4B86 /* Q75.js in Resources */,
+				7CA6482F22F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6489822F0A3DD00AA4B86 /* Q371.js in Resources */,
+				7CA648CD22F0A3DE00AA4B86 /* Q9.js in Resources */,
+				7CA648EE22F0A3DE00AA4B86 /* search_kmp.js in Resources */,
+				7CA648E222F0A3DE00AA4B86 /* sort_selection.js in Resources */,
+				7CA648AA22F0A3DD00AA4B86 /* Q54.js in Resources */,
+				7CA648C522F0A3DE00AA4B86 /* Q6.js in Resources */,
+				7CA6485522F0A3DD00AA4B86 /* Q190.js in Resources */,
+				7CA648D922F0A3DE00AA4B86 /* Q94.js in Resources */,
+				7CA6488F22F0A3DD00AA4B86 /* Q237.js in Resources */,
+				7CA6489522F0A3DD00AA4B86 /* Q334.js in Resources */,
+				7CA648BD22F0A3DE00AA4B86 /* Q29.js in Resources */,
 				CD82C43B21ABA05A00B3BAA0 /* Assets.xcassets in Resources */,
+				7CA6489222F0A3DD00AA4B86 /* Q202.js in Resources */,
+				7CA648B022F0A3DD00AA4B86 /* Q34.js in Resources */,
+				7CA648BC22F0A3DE00AA4B86 /* Q78.js in Resources */,
+				7CA6485422F0A3DD00AA4B86 /* Q122.js in Resources */,
+				7CA6485922F0A3DD00AA4B86 /* Q152.js in Resources */,
+				7CA6483622F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA648B622F0A3DD00AA4B86 /* Q4.js in Resources */,
+				7CA6487422F0A3DD00AA4B86 /* Q131.js in Resources */,
+				7CA6483B22F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6483E22F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6483F22F0A3DD00AA4B86 /* metadata.plist in Resources */,
+				7CA6485222F0A3DD00AA4B86 /* index.html in Resources */,
+				7CA6489422F0A3DD00AA4B86 /* note.md in Resources */,
+				7CA648F422F0A3DE00AA4B86 /* sort_msd.js in Resources */,
+				7CA648D522F0A3DE00AA4B86 /* Q8.js in Resources */,
+				7CA648D322F0A3DE00AA4B86 /* Q22.js in Resources */,
+				7CA648F122F0A3DE00AA4B86 /* sort_index_count.js in Resources */,
+				7CA6486422F0A3DD00AA4B86 /* Q149.js in Resources */,
+				7CA6487D22F0A3DD00AA4B86 /* Q297.js in Resources */,
+				7CA6487522F0A3DD00AA4B86 /* Q105.js in Resources */,
+				7CA648F322F0A3DE00AA4B86 /* sort_lsd.js in Resources */,
+				7CA6487322F0A3DD00AA4B86 /* Q160.js in Resources */,
+				7CA6484322F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6482022F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6489A22F0A3DD00AA4B86 /* Q350.js in Resources */,
+				7CA6482D22F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA648FB22F0A3DE00AA4B86 /* PalindromeNode.js in Resources */,
+				7CA648ED22F0A3DE00AA4B86 /* README.md in Resources */,
+				7CA6485C22F0A3DD00AA4B86 /* Q172.js in Resources */,
+				7CA6483722F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA648A122F0A3DD00AA4B86 /* Q380.js in Resources */,
+				7CA6484B22F0A3DD00AA4B86 /* Preview.jpg in Resources */,
+				7CA6485022F0A3DD00AA4B86 /* isPalindrome.js in Resources */,
+				7CA6482722F0A3DD00AA4B86 /* contents.xml in Resources */,
+				7CA6487C22F0A3DD00AA4B86 /* Q240.js in Resources */,
+				7CA648CA22F0A3DE00AA4B86 /* Q23.js in Resources */,
+				7CA6486A22F0A3DD00AA4B86 /* Q198.js in Resources */,
 				CD82C43921ABA05600B3BAA0 /* Main.storyboard in Resources */,
+				7CA648A822F0A3DD00AA4B86 /* Q44.js in Resources */,
+				7CA648A522F0A3DD00AA4B86 /* Q395.js in Resources */,
+				7CA6485B22F0A3DD00AA4B86 /* Q146.js in Resources */,
+				7CA6482422F0A3DD00AA4B86 /* viewState.plist in Resources */,
+				7CA6489F22F0A3DD00AA4B86 /* Q378.js in Resources */,
+				7CA6488222F0A3DD00AA4B86 /* Q204.js in Resources */,
+				7CA6485E22F0A3DD00AA4B86 /* Q200.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +1590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA6471022F09CA300AA4B86 /* Prototype.m in Sources */,
 				CD6896082229614700AE5169 /* MessageTarget.m in Sources */,
 				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
 				CD6896072229614700AE5169 /* MessageForwarding.m in Sources */,
