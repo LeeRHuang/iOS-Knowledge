@@ -10,6 +10,7 @@
 #import "Multithreading.h"
 #import "RuntimeTest.h"
 #import "UserInfoModel.h"
+#import "Prototype.h"
 
 @interface AppDelegate ()
 
@@ -36,8 +37,40 @@
 //
 //    NSData *cacheData = [[NSUserDefaults standardUserDefaults] objectForKey:@"model"];
 //    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
-    
+    [self testDesignPattern];
     return YES;
+}
+
+- (void)testDesignPattern {
+    Prototype *p1 = [[Prototype alloc] init];
+    Prototype *p2 = [p1 copy];
+    Prototype *p3 = p1;
+    NSLog(@"p1 == %@,p2 == %@,p3 == %@",p1.name,p2.name,p3.name);
+    
+    p1.name = @"it's my way";
+    
+    NSLog(@"p1_new == %@,p2_new == %@,p3_new == %@",p1.name,p2.name,p3.name);
+
+    NSArray *arr = @[@1,@2,@3];
+    NSMutableArray *copy1 = [arr copy];//深复制，不可变
+    NSLog(@"copy1 == %@ arr_p=%p copy1_p=%p",copy1,&arr,&copy1);
+//    [copy1 removeLastObject];
+//    NSLog(@"copy1__%@",copy1);
+
+    NSMutableArray *copy2 = [arr mutableCopy];//深复制，可变
+    NSLog(@"copy2 == %@ arr_p=%p copy2_p=%p",copy2,&arr,&copy2);
+    [copy2 removeLastObject];
+    NSLog(@"copy2__%@",copy2);
+
+    NSMutableArray *copy3 = [copy2 copy];//深复制，不可变
+    NSLog(@"copy3 == %@ copy2_p=%p copy3_p=%p",copy3,&copy2,&copy3);
+//    [copy3 removeLastObject];
+//    NSLog(@"copy3__%@",copy3);
+    
+    NSMutableArray *copy4 = [copy2 mutableCopy];//深复制，可变
+    NSLog(@"copy4 == %@ copy2_p=%p copy4_p=%p",copy4,&copy2,&copy4);
+    [copy4 removeLastObject];
+    NSLog(@"copy4__%@",copy4);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
