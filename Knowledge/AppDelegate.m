@@ -11,6 +11,9 @@
 #import "RuntimeTest.h"
 #import "UserInfoModel.h"
 #import "Prototype.h"
+#import "Singleton.h"
+#import "BuildCar.h"
+#import "Director.h"
 
 @interface AppDelegate ()
 
@@ -37,11 +40,14 @@
 //
 //    NSData *cacheData = [[NSUserDefaults standardUserDefaults] objectForKey:@"model"];
 //    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
-    [self testDesignPattern];
+    [self testPrototypePattern];
+    [self testSignleton];
+    [self testBuilder];
     return YES;
 }
 
-- (void)testDesignPattern {
+//原型模式
+- (void)testPrototypePattern {
     Prototype *p1 = [[Prototype alloc] init];
     Prototype *p2 = [p1 copy];
     Prototype *p3 = p1;
@@ -72,6 +78,18 @@
     [copy4 removeLastObject];
     NSLog(@"copy4__%@",copy4);
 }
+
+- (void)testSignleton {
+    [[Singleton shareInstance] test];
+}
+
+- (void)testBuilder {
+    Director *d = [[Director alloc] init];
+    BuildCar *b = [[BuildCar alloc] init];
+    d.buildCar = b;
+    [d build];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
