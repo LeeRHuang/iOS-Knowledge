@@ -100,11 +100,16 @@
 
 //工厂方法模式
 - (void)testFactory {
-    ProductCar *car = [BaoMaFactory creatCar];
-    [car DIY];
-    NSLog(@"brand is %@,tireType is %@",car.brand,car.tireType);
+    ProductCar *bmwCar = [BaoMaFactory creatCar];
+    [bmwCar DIY];
+    NSLog(@"brand is %@,tireType is %@",bmwCar.brand,bmwCar.tireType);
+    
+    ProductCar *benzCar = [BenzFactory creatCar];
+    [benzCar DIY];
+    NSLog(@"brand is %@,tireType is %@",benzCar.brand,benzCar.tireType);
 }
 
+//抽象工厂模式
 - (void)testAbstractFactory {
     AbstractFactory *abstract = [AbstractFactory numberOfType:AbLong];
     KNumber *number = [abstract creatNumber];
