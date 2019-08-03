@@ -18,6 +18,12 @@
 		7CA6490B22F3448B00AA4B86 /* BaoMa.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6490A22F3448B00AA4B86 /* BaoMa.m */; };
 		7CA6490E22F3454400AA4B86 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6490D22F3454400AA4B86 /* Benz.m */; };
 		7CA6491122F3458700AA4B86 /* BaseCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6491022F3458700AA4B86 /* BaseCar.m */; };
+		7CA6491622F516D500AA4B86 /* CarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6491522F516D500AA4B86 /* CarFactory.m */; };
+		7CA6491922F59A0800AA4B86 /* BaoMaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6491822F59A0800AA4B86 /* BaoMaFactory.m */; };
+		7CA6491C22F59A2200AA4B86 /* BenzFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6491B22F59A2200AA4B86 /* BenzFactory.m */; };
+		7CA6491F22F59A7000AA4B86 /* ProductCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6491E22F59A7000AA4B86 /* ProductCar.m */; };
+		7CA6492222F59A8500AA4B86 /* ProductBaoMa.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6492122F59A8500AA4B86 /* ProductBaoMa.m */; };
+		7CA6492522F59A9700AA4B86 /* ProductBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6492422F59A9700AA4B86 /* ProductBenz.m */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
@@ -62,6 +68,18 @@
 		7CA6490D22F3454400AA4B86 /* Benz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Benz.m; sourceTree = "<group>"; };
 		7CA6490F22F3458700AA4B86 /* BaseCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCar.h; sourceTree = "<group>"; };
 		7CA6491022F3458700AA4B86 /* BaseCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCar.m; sourceTree = "<group>"; };
+		7CA6491422F516D500AA4B86 /* CarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarFactory.h; sourceTree = "<group>"; };
+		7CA6491522F516D500AA4B86 /* CarFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarFactory.m; sourceTree = "<group>"; };
+		7CA6491722F59A0800AA4B86 /* BaoMaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaoMaFactory.h; sourceTree = "<group>"; };
+		7CA6491822F59A0800AA4B86 /* BaoMaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaoMaFactory.m; sourceTree = "<group>"; };
+		7CA6491A22F59A2200AA4B86 /* BenzFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenzFactory.h; sourceTree = "<group>"; };
+		7CA6491B22F59A2200AA4B86 /* BenzFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenzFactory.m; sourceTree = "<group>"; };
+		7CA6491D22F59A7000AA4B86 /* ProductCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCar.h; sourceTree = "<group>"; };
+		7CA6491E22F59A7000AA4B86 /* ProductCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCar.m; sourceTree = "<group>"; };
+		7CA6492022F59A8500AA4B86 /* ProductBaoMa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductBaoMa.h; sourceTree = "<group>"; };
+		7CA6492122F59A8500AA4B86 /* ProductBaoMa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductBaoMa.m; sourceTree = "<group>"; };
+		7CA6492322F59A9700AA4B86 /* ProductBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductBenz.h; sourceTree = "<group>"; };
+		7CA6492422F59A9700AA4B86 /* ProductBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductBenz.m; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
@@ -143,6 +161,8 @@
 		7CA6470C22F09C3D00AA4B86 /* Creater */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6491322F4889A00AA4B86 /* AbstractFactory */,
+				7CA6491222F4888D00AA4B86 /* Factory */,
 				7CA6490222F33A5100AA4B86 /* Builder */,
 				7CA648FE22F1E2AD00AA4B86 /* Singleton */,
 				7CA6470D22F09C4900AA4B86 /* Propotype */,
@@ -183,6 +203,32 @@
 				7CA6490722F33D7700AA4B86 /* Director.m */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		7CA6491222F4888D00AA4B86 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6491422F516D500AA4B86 /* CarFactory.h */,
+				7CA6491522F516D500AA4B86 /* CarFactory.m */,
+				7CA6491722F59A0800AA4B86 /* BaoMaFactory.h */,
+				7CA6491822F59A0800AA4B86 /* BaoMaFactory.m */,
+				7CA6491A22F59A2200AA4B86 /* BenzFactory.h */,
+				7CA6491B22F59A2200AA4B86 /* BenzFactory.m */,
+				7CA6491D22F59A7000AA4B86 /* ProductCar.h */,
+				7CA6491E22F59A7000AA4B86 /* ProductCar.m */,
+				7CA6492022F59A8500AA4B86 /* ProductBaoMa.h */,
+				7CA6492122F59A8500AA4B86 /* ProductBaoMa.m */,
+				7CA6492322F59A9700AA4B86 /* ProductBenz.h */,
+				7CA6492422F59A9700AA4B86 /* ProductBenz.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		7CA6491322F4889A00AA4B86 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 		7CDC9286222ACD10004F7E31 /* Block */ = {
@@ -360,11 +406,16 @@
 				CD6896082229614700AE5169 /* MessageTarget.m in Sources */,
 				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
 				CD6896072229614700AE5169 /* MessageForwarding.m in Sources */,
+				7CA6491F22F59A7000AA4B86 /* ProductCar.m in Sources */,
 				CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */,
+				7CA6492222F59A8500AA4B86 /* ProductBaoMa.m in Sources */,
+				7CA6491C22F59A2200AA4B86 /* BenzFactory.m in Sources */,
+				7CA6491922F59A0800AA4B86 /* BaoMaFactory.m in Sources */,
 				7CA6490E22F3454400AA4B86 /* Benz.m in Sources */,
 				CD6896002229613F00AE5169 /* NSKVONotifying_KVOTest.m in Sources */,
 				CD6896012229613F00AE5169 /* LockTest.m in Sources */,
 				CD6896022229613F00AE5169 /* Multithreading.m in Sources */,
+				7CA6491622F516D500AA4B86 /* CarFactory.m in Sources */,
 				CD6895FF2229613F00AE5169 /* KVOTest.m in Sources */,
 				CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */,
 				7CA6491122F3458700AA4B86 /* BaseCar.m in Sources */,
@@ -375,6 +426,7 @@
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
 				7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */,
 				7CA6470822EF42EF00AA4B86 /* RedView.m in Sources */,
+				7CA6492522F59A9700AA4B86 /* ProductBenz.m in Sources */,
 				7CA6490822F33D7700AA4B86 /* Director.m in Sources */,
 				7CA6490B22F3448B00AA4B86 /* BaoMa.m in Sources */,
 				7CA6470522EF42EF00AA4B86 /* YellowView.m in Sources */,

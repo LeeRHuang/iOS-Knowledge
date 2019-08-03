@@ -14,6 +14,11 @@
 #import "Singleton.h"
 #import "BuildCar.h"
 #import "Director.h"
+#import "CarFactory.h"
+#import "BaoMaFactory.h"
+#import "BenzFactory.h"
+#import "ProductBaoMa.h"
+#import "ProductBenz.h"
 
 @interface AppDelegate ()
 
@@ -43,6 +48,7 @@
     [self testPrototypePattern];
     [self testSignleton];
     [self testBuilder];
+    [self testFactory];
     return YES;
 }
 
@@ -88,6 +94,14 @@
     BuildCar *b = [[BuildCar alloc] init];
     d.buildCar = b;
     [d build];
+}
+
+//工厂方法模式
+- (void)testFactory {
+    ProductCar *car = [BaoMaFactory creatCar];
+    [car DIY];
+    [NSArray array];
+    NSLog(@"brand is %@,tireType is %@",car.brand,car.tireType);
 }
 
 
