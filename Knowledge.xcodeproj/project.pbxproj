@@ -32,6 +32,9 @@
 		7CA6493D22F5BD0400AA4B86 /* KFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6493C22F5BD0400AA4B86 /* KFloat.m */; };
 		7CA6494022F5BD1000AA4B86 /* KLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6493F22F5BD1000AA4B86 /* KLong.m */; };
 		7CA6494422F5DCE800AA4B86 /* KNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6494322F5DCE800AA4B86 /* KNumber.m */; };
+		7CA6495E22F6FC1400AA4B86 /* VoltageAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6495D22F6FC1400AA4B86 /* VoltageAdapter.m */; };
+		7CA6496222F7005400AA4B86 /* China.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496122F7005400AA4B86 /* China.m */; };
+		7CA6496522F7005B00AA4B86 /* USA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496422F7005B00AA4B86 /* USA.m */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B92DD9E7277990360A3A1ED8 /* libPods-Knowledge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
@@ -105,6 +108,13 @@
 		7CA6493F22F5BD1000AA4B86 /* KLong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLong.m; sourceTree = "<group>"; };
 		7CA6494222F5DCE800AA4B86 /* KNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNumber.h; sourceTree = "<group>"; };
 		7CA6494322F5DCE800AA4B86 /* KNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNumber.m; sourceTree = "<group>"; };
+		7CA6495C22F6FC1400AA4B86 /* VoltageAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoltageAdapter.h; sourceTree = "<group>"; };
+		7CA6495D22F6FC1400AA4B86 /* VoltageAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoltageAdapter.m; sourceTree = "<group>"; };
+		7CA6495F22F6FD7E00AA4B86 /* VoltageDeleagte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoltageDeleagte.h; sourceTree = "<group>"; };
+		7CA6496022F7005400AA4B86 /* China.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = China.h; sourceTree = "<group>"; };
+		7CA6496122F7005400AA4B86 /* China.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = China.m; sourceTree = "<group>"; };
+		7CA6496322F7005B00AA4B86 /* USA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USA.h; sourceTree = "<group>"; };
+		7CA6496422F7005B00AA4B86 /* USA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USA.m; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Knowledge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +200,7 @@
 		7CA6470A22EF44A900AA4B86 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6494522F6F52100AA4B86 /* Struct */,
 				7CA6470C22F09C3D00AA4B86 /* Creater */,
 			);
 			path = DesignPattern;
@@ -282,6 +293,28 @@
 				7CA6493F22F5BD1000AA4B86 /* KLong.m */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		7CA6494522F6F52100AA4B86 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6494622F6F55E00AA4B86 /* Adapter */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		7CA6494622F6F55E00AA4B86 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6495F22F6FD7E00AA4B86 /* VoltageDeleagte.h */,
+				7CA6495C22F6FC1400AA4B86 /* VoltageAdapter.h */,
+				7CA6495D22F6FC1400AA4B86 /* VoltageAdapter.m */,
+				7CA6496022F7005400AA4B86 /* China.h */,
+				7CA6496122F7005400AA4B86 /* China.m */,
+				7CA6496322F7005B00AA4B86 /* USA.h */,
+				7CA6496422F7005B00AA4B86 /* USA.m */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		7CDC9286222ACD10004F7E31 /* Block */ = {
@@ -488,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA6496222F7005400AA4B86 /* China.m in Sources */,
 				7CA6494422F5DCE800AA4B86 /* KNumber.m in Sources */,
 				7CA6471022F09CA300AA4B86 /* Prototype.m in Sources */,
 				CD6896082229614700AE5169 /* MessageTarget.m in Sources */,
@@ -509,6 +543,7 @@
 				CD6895FF2229613F00AE5169 /* KVOTest.m in Sources */,
 				7CA6492E22F5BB8600AA4B86 /* AbIntegerFactory.m in Sources */,
 				7CA6493A22F5BCF800AA4B86 /* KInteger.m in Sources */,
+				7CA6495E22F6FC1400AA4B86 /* VoltageAdapter.m in Sources */,
 				CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */,
 				7CA6491122F3458700AA4B86 /* BaseCar.m in Sources */,
 				CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */,
@@ -518,6 +553,7 @@
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
 				7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */,
 				7CA6470822EF42EF00AA4B86 /* RedView.m in Sources */,
+				7CA6496522F7005B00AA4B86 /* USA.m in Sources */,
 				7CA6494022F5BD1000AA4B86 /* KLong.m in Sources */,
 				7CA6492522F59A9700AA4B86 /* ProductBenz.m in Sources */,
 				7CA6490822F33D7700AA4B86 /* Director.m in Sources */,

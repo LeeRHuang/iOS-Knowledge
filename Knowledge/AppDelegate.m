@@ -20,6 +20,9 @@
 #import "ProductBaoMa.h"
 #import "ProductBenz.h"
 #import "AbstractFactory.h"
+#import "VoltageAdapter.h"
+#import "China.h"
+#import "USA.h"
 
 @interface AppDelegate ()
 
@@ -51,6 +54,7 @@
     [self testBuilder];
     [self testFactory];
     [self testAbstractFactory];
+    [self adapter];
     return YES;
 }
 
@@ -116,6 +120,17 @@
     AbstractFactory *abstract = [AbstractFactory numberOfType:AbLong];
     KNumber *number = [abstract creatNumber];
     [number logNumberType];
+}
+
+//适配器模式
+- (void)adapter {
+    
+    float chainaVoltage = [China normalChargeVoltage];
+    NSLog(@"chainaVoltage is %f",chainaVoltage);
+
+    VoltageAdapter *adapter = [[VoltageAdapter alloc] initAdapterWithTarget:[USA new]];
+    float usaVoltage = [adapter charge];
+    NSLog(@"usaVoltage is %f",usaVoltage);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
