@@ -87,10 +87,12 @@
     NSLog(@"copy4__%@",copy4);
 }
 
+//单例模式
 - (void)testSignleton {
     [[Singleton shareInstance] test];
 }
 
+//构建者模式
 - (void)testBuilder {
     Director *d = [[Director alloc] init];
     BuildCar *b = [[BuildCar alloc] init];

@@ -33,6 +33,7 @@
 		7CA6494022F5BD1000AA4B86 /* KLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6493F22F5BD1000AA4B86 /* KLong.m */; };
 		7CA6494422F5DCE800AA4B86 /* KNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6494322F5DCE800AA4B86 /* KNumber.m */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B92DD9E7277990360A3A1ED8 /* libPods-Knowledge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
 		CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60921D241A9008FEBAE /* UIImage+KZ_Load.m */; };
@@ -106,6 +107,7 @@
 		7CA6494322F5DCE800AA4B86 /* KNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNumber.m; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Knowledge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
 		CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
 		CD38B60521D23B7E008FEBAE /* Personal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
@@ -139,6 +141,8 @@
 		CD82C43F21ABA05A00B3BAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD82C44021ABA05A00B3BAA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD82C44721AD186600B3BAA0 /* appName.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = appName.plist; sourceTree = "<group>"; };
+		CE4D5E2A6D7AE46EFEA0D0D1 /* Pods-Knowledge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knowledge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knowledge/Pods-Knowledge.debug.xcconfig"; sourceTree = "<group>"; };
+		EECC7103DE9C8B113A6174F9 /* Pods-Knowledge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knowledge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knowledge/Pods-Knowledge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,12 +150,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92DD9E7277990360A3A1ED8 /* libPods-Knowledge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		197CE2174BD3523AC0882D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CA646FC22EF428B00AA4B86 /* Events */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +348,8 @@
 			children = (
 				CD82C43021ABA05600B3BAA0 /* Knowledge */,
 				CD82C42F21ABA05600B3BAA0 /* Products */,
+				DC0CB9085640D0E2735C58CD /* Pods */,
+				197CE2174BD3523AC0882D80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -371,6 +386,15 @@
 			path = Knowledge;
 			sourceTree = "<group>";
 		};
+		DC0CB9085640D0E2735C58CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D5E2A6D7AE46EFEA0D0D1 /* Pods-Knowledge.debug.xcconfig */,
+				EECC7103DE9C8B113A6174F9 /* Pods-Knowledge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,6 +402,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD82C44421ABA05A00B3BAA0 /* Build configuration list for PBXNativeTarget "Knowledge" */;
 			buildPhases = (
+				6ACE8D9D7997F8AA43F2833A /* [CP] Check Pods Manifest.lock */,
 				CD82C42A21ABA05600B3BAA0 /* Sources */,
 				CD82C42B21ABA05600B3BAA0 /* Frameworks */,
 				CD82C42C21ABA05600B3BAA0 /* Resources */,
@@ -436,6 +461,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ACE8D9D7997F8AA43F2833A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Knowledge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD82C42A21ABA05600B3BAA0 /* Sources */ = {
@@ -619,6 +665,7 @@
 		};
 		CD82C44521ABA05A00B3BAA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4D5E2A6D7AE46EFEA0D0D1 /* Pods-Knowledge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -639,6 +686,7 @@
 		};
 		CD82C44621ABA05A00B3BAA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECC7103DE9C8B113A6174F9 /* Pods-Knowledge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
