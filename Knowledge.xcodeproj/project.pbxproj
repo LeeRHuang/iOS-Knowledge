@@ -35,6 +35,10 @@
 		7CA6495E22F6FC1400AA4B86 /* VoltageAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6495D22F6FC1400AA4B86 /* VoltageAdapter.m */; };
 		7CA6496222F7005400AA4B86 /* China.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496122F7005400AA4B86 /* China.m */; };
 		7CA6496522F7005B00AA4B86 /* USA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496422F7005B00AA4B86 /* USA.m */; };
+		7CA6496D22F72B4900AA4B86 /* HighSpeedRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496C22F72B4900AA4B86 /* HighSpeedRoad.m */; };
+		7CA6497022F72B7300AA4B86 /* Street.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496F22F72B7300AA4B86 /* Street.m */; };
+		7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497322F72F7E00AA4B86 /* BCar.m */; };
+		7CA6497722F72F9000AA4B86 /* BBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497622F72F9000AA4B86 /* BBus.m */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B92DD9E7277990360A3A1ED8 /* libPods-Knowledge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
@@ -115,6 +119,16 @@
 		7CA6496122F7005400AA4B86 /* China.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = China.m; sourceTree = "<group>"; };
 		7CA6496322F7005B00AA4B86 /* USA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USA.h; sourceTree = "<group>"; };
 		7CA6496422F7005B00AA4B86 /* USA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USA.m; sourceTree = "<group>"; };
+		7CA6496A22F72B3700AA4B86 /* AbstractRoadDeleagte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractRoadDeleagte.h; sourceTree = "<group>"; };
+		7CA6496B22F72B4900AA4B86 /* HighSpeedRoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighSpeedRoad.h; sourceTree = "<group>"; };
+		7CA6496C22F72B4900AA4B86 /* HighSpeedRoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighSpeedRoad.m; sourceTree = "<group>"; };
+		7CA6496E22F72B7300AA4B86 /* Street.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Street.h; sourceTree = "<group>"; };
+		7CA6496F22F72B7300AA4B86 /* Street.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Street.m; sourceTree = "<group>"; };
+		7CA6497122F72F4600AA4B86 /* AbstractCarDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractCarDelegate.h; sourceTree = "<group>"; };
+		7CA6497222F72F7E00AA4B86 /* BCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCar.h; sourceTree = "<group>"; };
+		7CA6497322F72F7E00AA4B86 /* BCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCar.m; sourceTree = "<group>"; };
+		7CA6497522F72F9000AA4B86 /* BBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBus.h; sourceTree = "<group>"; };
+		7CA6497622F72F9000AA4B86 /* BBus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBus.m; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Knowledge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,6 +312,7 @@
 		7CA6494522F6F52100AA4B86 /* Struct */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6496622F7267600AA4B86 /* Bridge */,
 				7CA6494622F6F55E00AA4B86 /* Adapter */,
 			);
 			path = Struct;
@@ -315,6 +330,23 @@
 				7CA6496422F7005B00AA4B86 /* USA.m */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		7CA6496622F7267600AA4B86 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6496A22F72B3700AA4B86 /* AbstractRoadDeleagte.h */,
+				7CA6496B22F72B4900AA4B86 /* HighSpeedRoad.h */,
+				7CA6496C22F72B4900AA4B86 /* HighSpeedRoad.m */,
+				7CA6496E22F72B7300AA4B86 /* Street.h */,
+				7CA6496F22F72B7300AA4B86 /* Street.m */,
+				7CA6497122F72F4600AA4B86 /* AbstractCarDelegate.h */,
+				7CA6497222F72F7E00AA4B86 /* BCar.h */,
+				7CA6497322F72F7E00AA4B86 /* BCar.m */,
+				7CA6497522F72F9000AA4B86 /* BBus.h */,
+				7CA6497622F72F9000AA4B86 /* BBus.m */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		7CDC9286222ACD10004F7E31 /* Block */ = {
@@ -522,9 +554,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA6496222F7005400AA4B86 /* China.m in Sources */,
+				7CA6496D22F72B4900AA4B86 /* HighSpeedRoad.m in Sources */,
+				7CA6497722F72F9000AA4B86 /* BBus.m in Sources */,
 				7CA6494422F5DCE800AA4B86 /* KNumber.m in Sources */,
 				7CA6471022F09CA300AA4B86 /* Prototype.m in Sources */,
 				CD6896082229614700AE5169 /* MessageTarget.m in Sources */,
+				7CA6497022F72B7300AA4B86 /* Street.m in Sources */,
 				7CA6492822F5B8D300AA4B86 /* AbstractFactory.m in Sources */,
 				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
 				CD6896072229614700AE5169 /* MessageForwarding.m in Sources */,
@@ -536,6 +571,7 @@
 				7CA6491922F59A0800AA4B86 /* BaoMaFactory.m in Sources */,
 				7CA6490E22F3454400AA4B86 /* Benz.m in Sources */,
 				CD6896002229613F00AE5169 /* NSKVONotifying_KVOTest.m in Sources */,
+				7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */,
 				7CA6493D22F5BD0400AA4B86 /* KFloat.m in Sources */,
 				CD6896012229613F00AE5169 /* LockTest.m in Sources */,
 				CD6896022229613F00AE5169 /* Multithreading.m in Sources */,

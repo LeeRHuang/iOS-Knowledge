@@ -1,5 +1,5 @@
 //
-//  VoltageDeleagte.h
+//  Road.h
 //  Knowledge
 //
 //  Created by 李日煌 on 2019/8/4.
@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VoltageDeleagte <NSObject>
-
-@property (nonatomic,copy) NSString *brand;
-
-- (float)charge;
+@interface Road : NSObject
 
 @end

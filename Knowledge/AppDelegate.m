@@ -23,6 +23,8 @@
 #import "VoltageAdapter.h"
 #import "China.h"
 #import "USA.h"
+#import "HighSpeedRoad.h"
+#import "Street.h"
 
 @interface AppDelegate ()
 
@@ -55,6 +57,7 @@
     [self testFactory];
     [self testAbstractFactory];
     [self adapter];
+    [self testBridge];
     return YES;
 }
 
@@ -131,6 +134,20 @@
     VoltageAdapter *adapter = [[VoltageAdapter alloc] initAdapterWithTarget:[USA new]];
     float usaVoltage = [adapter charge];
     NSLog(@"usaVoltage is %f",usaVoltage);
+    NSLog(@"brand is %@",adapter.brand);
+}
+
+//桥接模式
+- (void)testBridge {
+    HighSpeedRoad *speedRoad = [[HighSpeedRoad alloc] init];
+    speedRoad.car = [BCar new];
+    speedRoad.bus = [BBus new];
+    [speedRoad run];
+    
+    Street *street = [[Street alloc] init];
+    street.bus = [BBus new];
+    street.car = [BCar new];
+    [street run];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

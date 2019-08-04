@@ -1,5 +1,5 @@
 //
-//  VoltageDeleagte.h
+//  Street.h
 //  Knowledge
 //
 //  Created by 李日煌 on 2019/8/4.
@@ -7,11 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractRoadDeleagte.h"
 
-@protocol VoltageDeleagte <NSObject>
-
-@property (nonatomic,copy) NSString *brand;
-
-- (float)charge;
+@interface Street : NSObject <AbstractRoadDeleagte>
 
 @end

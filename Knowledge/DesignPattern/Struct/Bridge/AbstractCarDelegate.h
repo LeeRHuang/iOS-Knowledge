@@ -1,5 +1,5 @@
 //
-//  VoltageDeleagte.h
+//  AbstractCarDelegate.h
 //  Knowledge
 //
 //  Created by 李日煌 on 2019/8/4.
@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VoltageDeleagte <NSObject>
+@protocol AbstractCarDelegate <NSObject>
 
-@property (nonatomic,copy) NSString *brand;
-
-- (float)charge;
+- (void)run;
 
 @end

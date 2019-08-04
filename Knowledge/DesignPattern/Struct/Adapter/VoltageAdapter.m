@@ -23,10 +23,13 @@
 
 
 - (float)charge {
+    self.brand = @"xxx";
     if ([_country isKindOfClass:[USA class]]) {
         return [China normalChargeVoltage]/2.0f;
     }
     return [China normalChargeVoltage];
 }
+
+@synthesize brand;
 
 @end
