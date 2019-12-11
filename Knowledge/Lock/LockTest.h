@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LockTest : NSObject
 
+- (void)testSynchornized;
+- (void)testSsemaphore;
+-(void)testRecursiveLock;
+- (void)testConditionLock;
+- (void)testCondition;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -25,4 +25,8 @@
     NSLog(@"eatting");
 }
 
++ (void)drive:(NSString *)carBrand {
+    NSLog(@"drive : %@", carBrand);
+}
+
 @end

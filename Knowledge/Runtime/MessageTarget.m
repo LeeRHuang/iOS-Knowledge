@@ -18,4 +18,8 @@
     NSLog(@"MessageTarget's eat");
 }
 
+- (void)drive {
+    NSLog(@"MessageTarget's drive");
+}
+
 @end

@@ -39,7 +39,7 @@
 		7CA6497022F72B7300AA4B86 /* Street.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496F22F72B7300AA4B86 /* Street.m */; };
 		7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497322F72F7E00AA4B86 /* BCar.m */; };
 		7CA6497722F72F9000AA4B86 /* BBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497622F72F9000AA4B86 /* BBus.m */; };
-		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; };
 		B92DD9E7277990360A3A1ED8 /* libPods-Knowledge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
@@ -660,7 +660,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -719,7 +719,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

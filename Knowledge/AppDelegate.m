@@ -25,6 +25,8 @@
 #import "USA.h"
 #import "HighSpeedRoad.h"
 #import "Street.h"
+#import "LockTest.h"
+#import "BlockTest.h"
 
 @interface AppDelegate ()
 
@@ -35,7 +37,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-//    Multithreading *threading = [[Multithreading alloc] init];
+    Multithreading *threading = [[Multithreading alloc] init];
 //    RuntimeTest *runtime = [[RuntimeTest alloc] init];
     
 //    UserInfoModel *infoModel = [[UserInfoModel alloc] init];
@@ -51,14 +53,28 @@
 //
 //    NSData *cacheData = [[NSUserDefaults standardUserDefaults] objectForKey:@"model"];
 //    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
+//    [self testBlock];
+//    [self testLock];
     [self testPrototypePattern];
-    [self testSignleton];
-    [self testBuilder];
-    [self testFactory];
-    [self testAbstractFactory];
-    [self adapter];
-    [self testBridge];
+//    [self testSignleton];
+//    [self testBuilder];
+//    [self testFactory];
+//    [self testAbstractFactory];
+//    [self adapter];
+//    [self testBridge];
     return YES;
+}
+
+// block
+- (void)testBlock {
+    BlockTest *test = [BlockTest new];
+    [test testBlock];
+}
+
+// 线程锁
+- (void)testLock {
+    LockTest *testLock = [LockTest new];
+//    [testLock testCondition];
 }
 
 //原型模式
@@ -77,10 +93,12 @@
     NSLog(@"copy1 == %@ arr_p=%p copy1_p=%p",copy1,&arr,&copy1);
 //    [copy1 removeLastObject];
 //    NSLog(@"copy1__%@",copy1);
-
+    for (int i= 0; i< 10000000; i++) {
+          NSString * str = [NSString stringWithFormat:@"abcdefghijklmn1234566!@#$"];
+    }
     NSMutableArray *copy2 = [arr mutableCopy];//深复制，可变
     NSLog(@"copy2 == %@ arr_p=%p copy2_p=%p",copy2,&arr,&copy2);
-    [copy2 removeLastObject];
+//    [copy2 removeLastObject];
     NSLog(@"copy2__%@",copy2);
 
     NSMutableArray *copy3 = [copy2 copy];//深复制，不可变

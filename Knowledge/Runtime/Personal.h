@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)startUp;
 + (void)eat;
++ (void)drive:(NSString *)carBrand;
 
 @end
 
