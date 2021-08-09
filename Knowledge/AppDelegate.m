@@ -28,8 +28,15 @@
 #import "LockTest.h"
 #import "BlockTest.h"
 
-@interface AppDelegate ()
+#import "MemoryOne.h"
+#import "MemoryTwo.h"
+#import "MemoryDealloc.h"
+#import "MemoryDeallocSubClass.h"
 
+@interface AppDelegate ()
+{
+    MemoryTwo *mTwo;
+}
 @end
 
 @implementation AppDelegate
@@ -37,7 +44,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    Multithreading *threading = [[Multithreading alloc] init];
+    
+    // 内存
+    [self testMemory];
+    // dealloc
+    [self testDealloc];
+    
+    
+//    Multithreading *threading = [[Multithreading alloc] init];
 //    RuntimeTest *runtime = [[RuntimeTest alloc] init];
     
 //    UserInfoModel *infoModel = [[UserInfoModel alloc] init];
@@ -55,7 +69,7 @@
 //    UserInfoModel *cacheInfoModel = [NSKeyedUnarchiver unarchiveObjectWithData:cacheData];
 //    [self testBlock];
 //    [self testLock];
-    [self testPrototypePattern];
+//    [self testPrototypePattern];
 //    [self testSignleton];
 //    [self testBuilder];
 //    [self testFactory];
@@ -63,6 +77,21 @@
 //    [self adapter];
 //    [self testBridge];
     return YES;
+}
+
+- (void)testMemory {
+    MemoryOne *mOne = [MemoryOne new];
+    [mOne testTaggedPointer];
+    
+//    mTwo = [MemoryTwo new];
+//    mTwo.one = mOne;
+    
+    mOne = nil;
+}
+
+- (void)testDealloc {
+    MemoryDeallocSubClass *subCls = [MemoryDeallocSubClass new];
+    subCls.baseName = @"name";
 }
 
 // block

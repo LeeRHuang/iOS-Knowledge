@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C9330F526B68D5A00E1001E /* MemoryOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9330F426B68D5A00E1001E /* MemoryOne.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C9330FB26B69D7300E1001E /* MemoryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9330FA26B69D7300E1001E /* MemoryTwo.m */; };
 		7CA6470522EF42EF00AA4B86 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA646FF22EF42EE00AA4B86 /* YellowView.m */; };
 		7CA6470622EF42EF00AA4B86 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470122EF42EE00AA4B86 /* GreenView.m */; };
 		7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6470222EF42EE00AA4B86 /* BlackView.m */; };
@@ -40,6 +42,9 @@
 		7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497322F72F7E00AA4B86 /* BCar.m */; };
 		7CA6497722F72F9000AA4B86 /* BBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497622F72F9000AA4B86 /* BBus.m */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; };
+		7CF7E4F726BE70C6002AA31A /* NSObject+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7E4F626BE70C6002AA31A /* NSObject+Test1.m */; };
+		7CF7E50426C02056002AA31A /* MemoryDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7E50326C02056002AA31A /* MemoryDealloc.m */; };
+		7CF7E50826C0206B002AA31A /* MemoryDeallocSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7E50726C0206B002AA31A /* MemoryDeallocSubClass.m */; };
 		B92DD9E7277990360A3A1ED8 /* libPods-Knowledge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */; };
 		CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */; };
 		CD38B60721D23B7E008FEBAE /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38B60621D23B7E008FEBAE /* Personal.m */; };
@@ -62,6 +67,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C9330F326B68D5A00E1001E /* MemoryOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryOne.h; sourceTree = "<group>"; };
+		7C9330F426B68D5A00E1001E /* MemoryOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryOne.m; sourceTree = "<group>"; };
+		7C9330F926B69D7300E1001E /* MemoryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTwo.h; sourceTree = "<group>"; };
+		7C9330FA26B69D7300E1001E /* MemoryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTwo.m; sourceTree = "<group>"; };
+		7C9330FD26B6B48800E1001E /* MemoryTestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTestDelegate.h; sourceTree = "<group>"; };
 		7CA646FD22EF42EE00AA4B86 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
 		7CA646FE22EF42EE00AA4B86 /* BlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackView.h; sourceTree = "<group>"; };
 		7CA646FF22EF42EE00AA4B86 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
@@ -131,6 +141,12 @@
 		7CA6497622F72F9000AA4B86 /* BBus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBus.m; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		7CF7E4F526BE70C6002AA31A /* NSObject+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test1.h"; sourceTree = "<group>"; };
+		7CF7E4F626BE70C6002AA31A /* NSObject+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test1.m"; sourceTree = "<group>"; };
+		7CF7E50226C02056002AA31A /* MemoryDealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryDealloc.h; sourceTree = "<group>"; };
+		7CF7E50326C02056002AA31A /* MemoryDealloc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryDealloc.m; sourceTree = "<group>"; };
+		7CF7E50626C0206B002AA31A /* MemoryDeallocSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryDeallocSubClass.h; sourceTree = "<group>"; };
+		7CF7E50726C0206B002AA31A /* MemoryDeallocSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryDeallocSubClass.m; sourceTree = "<group>"; };
 		8AA26C40D37BD1D67D9391CB /* libPods-Knowledge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Knowledge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD38B5FE21D239FA008FEBAE /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
 		CD38B5FF21D239FA008FEBAE /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
@@ -202,13 +218,6 @@
 				7CA646FF22EF42EE00AA4B86 /* YellowView.m */,
 			);
 			path = Events;
-			sourceTree = "<group>";
-		};
-		7CA6470922EF445F00AA4B86 /* Algorithm */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		7CA6470A22EF44A900AA4B86 /* DesignPattern */ = {
@@ -358,6 +367,24 @@
 			path = Block;
 			sourceTree = "<group>";
 		};
+		7CFF8E8A26B65027002F0AAD /* MemoryManage */ = {
+			isa = PBXGroup;
+			children = (
+				7C9330F326B68D5A00E1001E /* MemoryOne.h */,
+				7C9330F426B68D5A00E1001E /* MemoryOne.m */,
+				7C9330F926B69D7300E1001E /* MemoryTwo.h */,
+				7C9330FA26B69D7300E1001E /* MemoryTwo.m */,
+				7C9330FD26B6B48800E1001E /* MemoryTestDelegate.h */,
+				7CF7E4F526BE70C6002AA31A /* NSObject+Test1.h */,
+				7CF7E4F626BE70C6002AA31A /* NSObject+Test1.m */,
+				7CF7E50226C02056002AA31A /* MemoryDealloc.h */,
+				7CF7E50326C02056002AA31A /* MemoryDealloc.m */,
+				7CF7E50626C0206B002AA31A /* MemoryDeallocSubClass.h */,
+				7CF7E50726C0206B002AA31A /* MemoryDeallocSubClass.m */,
+			);
+			path = MemoryManage;
+			sourceTree = "<group>";
+		};
 		CD38B60421D23AB7008FEBAE /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,8 +456,8 @@
 		CD82C43021ABA05600B3BAA0 /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				7CFF8E8A26B65027002F0AAD /* MemoryManage */,
 				7CA6470A22EF44A900AA4B86 /* DesignPattern */,
-				7CA6470922EF445F00AA4B86 /* Algorithm */,
 				7CA646FC22EF428B00AA4B86 /* Events */,
 				7CDC9286222ACD10004F7E31 /* Block */,
 				CD6895F42229613F00AE5169 /* KVO */,
@@ -564,17 +591,20 @@
 				CD38B60721D23B7E008FEBAE /* Personal.m in Sources */,
 				CD6896072229614700AE5169 /* MessageForwarding.m in Sources */,
 				7CA6493422F5BBB100AA4B86 /* AbLongFactory.m in Sources */,
+				7CF7E50826C0206B002AA31A /* MemoryDeallocSubClass.m in Sources */,
 				7CA6491F22F59A7000AA4B86 /* ProductCar.m in Sources */,
 				CD7CD30621E342A700A7FCFD /* UserInfoModel.m in Sources */,
 				7CA6492222F59A8500AA4B86 /* ProductBaoMa.m in Sources */,
 				7CA6491C22F59A2200AA4B86 /* BenzFactory.m in Sources */,
 				7CA6491922F59A0800AA4B86 /* BaoMaFactory.m in Sources */,
+				7C9330FB26B69D7300E1001E /* MemoryTwo.m in Sources */,
 				7CA6490E22F3454400AA4B86 /* Benz.m in Sources */,
 				CD6896002229613F00AE5169 /* NSKVONotifying_KVOTest.m in Sources */,
 				7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */,
 				7CA6493D22F5BD0400AA4B86 /* KFloat.m in Sources */,
 				CD6896012229613F00AE5169 /* LockTest.m in Sources */,
 				CD6896022229613F00AE5169 /* Multithreading.m in Sources */,
+				7CF7E50426C02056002AA31A /* MemoryDealloc.m in Sources */,
 				7CA6491622F516D500AA4B86 /* CarFactory.m in Sources */,
 				CD6895FF2229613F00AE5169 /* KVOTest.m in Sources */,
 				7CA6492E22F5BB8600AA4B86 /* AbIntegerFactory.m in Sources */,
@@ -586,8 +616,10 @@
 				CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */,
 				CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */,
 				7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */,
+				7C9330F526B68D5A00E1001E /* MemoryOne.m in Sources */,
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
 				7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */,
+				7CF7E4F726BE70C6002AA31A /* NSObject+Test1.m in Sources */,
 				7CA6470822EF42EF00AA4B86 /* RedView.m in Sources */,
 				7CA6496522F7005B00AA4B86 /* USA.m in Sources */,
 				7CA6494022F5BD1000AA4B86 /* KLong.m in Sources */,
