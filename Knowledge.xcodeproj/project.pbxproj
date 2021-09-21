@@ -41,7 +41,12 @@
 		7CA6497022F72B7300AA4B86 /* Street.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6496F22F72B7300AA4B86 /* Street.m */; };
 		7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497322F72F7E00AA4B86 /* BCar.m */; };
 		7CA6497722F72F9000AA4B86 /* BBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6497622F72F9000AA4B86 /* BBus.m */; };
+		7CB2A97B26E0F37900FDB253 /* MemoryAutoReleasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2A97A26E0F37900FDB253 /* MemoryAutoReleasePool.m */; };
 		7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC9288222ACD1F004F7E31 /* BlockTest.m */; };
+		7CF3DC4A26F49986003D8ED5 /* TFDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3DC4926F49986003D8ED5 /* TFDelegateObject.m */; };
+		7CF3DC4F26F49AFD003D8ED5 /* TFDelegateObject+PP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3DC4E26F49AFD003D8ED5 /* TFDelegateObject+PP.m */; };
+		7CF3DC7426F850BB003D8ED5 /* FibonacciObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3DC7326F850BB003D8ED5 /* FibonacciObject.m */; };
+		7CF3DC7926F9DB2B003D8ED5 /* TwoStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3DC7826F9DB2B003D8ED5 /* TwoStackQueue.m */; };
 		7CF7E4F726BE70C6002AA31A /* NSObject+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7E4F626BE70C6002AA31A /* NSObject+Test1.m */; };
 		7CF7E50426C02056002AA31A /* MemoryDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7E50326C02056002AA31A /* MemoryDealloc.m */; };
 		7CF7E50826C0206B002AA31A /* MemoryDeallocSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7E50726C0206B002AA31A /* MemoryDeallocSubClass.m */; };
@@ -139,8 +144,18 @@
 		7CA6497322F72F7E00AA4B86 /* BCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCar.m; sourceTree = "<group>"; };
 		7CA6497522F72F9000AA4B86 /* BBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBus.h; sourceTree = "<group>"; };
 		7CA6497622F72F9000AA4B86 /* BBus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBus.m; sourceTree = "<group>"; };
+		7CB2A97926E0F37900FDB253 /* MemoryAutoReleasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryAutoReleasePool.h; sourceTree = "<group>"; };
+		7CB2A97A26E0F37900FDB253 /* MemoryAutoReleasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryAutoReleasePool.m; sourceTree = "<group>"; };
 		7CDC9287222ACD1F004F7E31 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		7CDC9288222ACD1F004F7E31 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		7CF3DC4826F49986003D8ED5 /* TFDelegateObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDelegateObject.h; sourceTree = "<group>"; };
+		7CF3DC4926F49986003D8ED5 /* TFDelegateObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDelegateObject.m; sourceTree = "<group>"; };
+		7CF3DC4D26F49AFD003D8ED5 /* TFDelegateObject+PP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFDelegateObject+PP.h"; sourceTree = "<group>"; };
+		7CF3DC4E26F49AFD003D8ED5 /* TFDelegateObject+PP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TFDelegateObject+PP.m"; sourceTree = "<group>"; };
+		7CF3DC7226F850BB003D8ED5 /* FibonacciObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciObject.h; sourceTree = "<group>"; };
+		7CF3DC7326F850BB003D8ED5 /* FibonacciObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciObject.m; sourceTree = "<group>"; };
+		7CF3DC7726F9DB2B003D8ED5 /* TwoStackQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoStackQueue.h; sourceTree = "<group>"; };
+		7CF3DC7826F9DB2B003D8ED5 /* TwoStackQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoStackQueue.m; sourceTree = "<group>"; };
 		7CF7E4F526BE70C6002AA31A /* NSObject+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test1.h"; sourceTree = "<group>"; };
 		7CF7E4F626BE70C6002AA31A /* NSObject+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test1.m"; sourceTree = "<group>"; };
 		7CF7E50226C02056002AA31A /* MemoryDealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryDealloc.h; sourceTree = "<group>"; };
@@ -367,6 +382,28 @@
 			path = Block;
 			sourceTree = "<group>";
 		};
+		7CF3DC4726F49954003D8ED5 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7CF3DC4826F49986003D8ED5 /* TFDelegateObject.h */,
+				7CF3DC4926F49986003D8ED5 /* TFDelegateObject.m */,
+				7CF3DC4D26F49AFD003D8ED5 /* TFDelegateObject+PP.h */,
+				7CF3DC4E26F49AFD003D8ED5 /* TFDelegateObject+PP.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		7CF3DC7126F8506A003D8ED5 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				7CF3DC7226F850BB003D8ED5 /* FibonacciObject.h */,
+				7CF3DC7326F850BB003D8ED5 /* FibonacciObject.m */,
+				7CF3DC7726F9DB2B003D8ED5 /* TwoStackQueue.h */,
+				7CF3DC7826F9DB2B003D8ED5 /* TwoStackQueue.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
 		7CFF8E8A26B65027002F0AAD /* MemoryManage */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +418,8 @@
 				7CF7E50326C02056002AA31A /* MemoryDealloc.m */,
 				7CF7E50626C0206B002AA31A /* MemoryDeallocSubClass.h */,
 				7CF7E50726C0206B002AA31A /* MemoryDeallocSubClass.m */,
+				7CB2A97926E0F37900FDB253 /* MemoryAutoReleasePool.h */,
+				7CB2A97A26E0F37900FDB253 /* MemoryAutoReleasePool.m */,
 			);
 			path = MemoryManage;
 			sourceTree = "<group>";
@@ -456,6 +495,8 @@
 		CD82C43021ABA05600B3BAA0 /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				7CF3DC7126F8506A003D8ED5 /* Algorithm */,
+				7CF3DC4726F49954003D8ED5 /* Delegate */,
 				7CFF8E8A26B65027002F0AAD /* MemoryManage */,
 				7CA6470A22EF44A900AA4B86 /* DesignPattern */,
 				7CA646FC22EF428B00AA4B86 /* Events */,
@@ -601,6 +642,7 @@
 				7CA6490E22F3454400AA4B86 /* Benz.m in Sources */,
 				CD6896002229613F00AE5169 /* NSKVONotifying_KVOTest.m in Sources */,
 				7CA6497422F72F7E00AA4B86 /* BCar.m in Sources */,
+				7CF3DC7926F9DB2B003D8ED5 /* TwoStackQueue.m in Sources */,
 				7CA6493D22F5BD0400AA4B86 /* KFloat.m in Sources */,
 				CD6896012229613F00AE5169 /* LockTest.m in Sources */,
 				CD6896022229613F00AE5169 /* Multithreading.m in Sources */,
@@ -613,9 +655,11 @@
 				CD38B60021D239FA008FEBAE /* RuntimeTest.m in Sources */,
 				7CA6491122F3458700AA4B86 /* BaseCar.m in Sources */,
 				CD7CD30F21E43A3D00A7FCFD /* TFBaseModel.m in Sources */,
+				7CF3DC4A26F49986003D8ED5 /* TFDelegateObject.m in Sources */,
 				CD82C43621ABA05600B3BAA0 /* ViewController.m in Sources */,
 				CD38B60A21D241A9008FEBAE /* UIImage+KZ_Load.m in Sources */,
 				7CDC9289222ACD1F004F7E31 /* BlockTest.m in Sources */,
+				7CF3DC4F26F49AFD003D8ED5 /* TFDelegateObject+PP.m in Sources */,
 				7C9330F526B68D5A00E1001E /* MemoryOne.m in Sources */,
 				CD82C44121ABA05A00B3BAA0 /* main.m in Sources */,
 				7CA6470722EF42EF00AA4B86 /* BlackView.m in Sources */,
@@ -624,8 +668,10 @@
 				7CA6496522F7005B00AA4B86 /* USA.m in Sources */,
 				7CA6494022F5BD1000AA4B86 /* KLong.m in Sources */,
 				7CA6492522F59A9700AA4B86 /* ProductBenz.m in Sources */,
+				7CB2A97B26E0F37900FDB253 /* MemoryAutoReleasePool.m in Sources */,
 				7CA6490822F33D7700AA4B86 /* Director.m in Sources */,
 				7CA6493122F5BB9C00AA4B86 /* AbFloatFactory.m in Sources */,
+				7CF3DC7426F850BB003D8ED5 /* FibonacciObject.m in Sources */,
 				7CA6490B22F3448B00AA4B86 /* BaoMa.m in Sources */,
 				7CA6470522EF42EF00AA4B86 /* YellowView.m in Sources */,
 				7CA6490122F1E2F000AA4B86 /* Singleton.m in Sources */,
@@ -773,17 +819,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 9R8U88B3Y5;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = Knowledge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_MAP_FILE_PATH = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PPD.Knowledge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueersi.wxjzh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cd9e1d8d-6248-4efd-8612-6ee7813b8779";
-				PROVISIONING_PROFILE_SPECIFIER = pluosi_dev;
+				PROVISIONING_PROFILE_SPECIFIER = com.xueersi.wxjzh_dev_2020;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -794,16 +843,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = Knowledge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_MAP_FILE_PATH = "/Users/lirihuang/Desktop/learn/Crash分析/1_LinkMap.txt\n";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PPD.Knowledge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueersi.wxjzh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = com.xueersi.wxjzh_dev_2020;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

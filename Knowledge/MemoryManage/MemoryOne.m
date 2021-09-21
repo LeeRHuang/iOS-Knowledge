@@ -9,6 +9,8 @@
 #import "MemoryOne.h"
 #import <objc/runtime.h>
 
+NSString * const THPerformsPackageDownloadPerfKey = @"THPerformsPackageDownloadPerfKey";
+
 @interface MemoryOne ()
 
 //@property(nonatomic,copy,readonly) NSString *str;
@@ -39,8 +41,33 @@
         [self testMemoryManage];
         [self printAllIvar];
     }
-    
+    _THPerformsPerfEnd(@"key", @"subKey");
     return self;
+}
+
+
+void _THPerformsPerfEnd(NSString *key, NSString *subKey)
+{
+    if(!key) {
+        return;
+    }
+    
+    NSObject *item = nil;
+    NSDictionary *perfDict = @"";
+    NSDictionary *subDict = @{@"subKey":@"2"};
+    NSTimeInterval end = [[NSDate date] timeIntervalSince1970] * 1000;
+
+    if(!subKey){
+//        item = perf.perfDict[key];
+//        NSTimeInterval start = item.time;
+//        item.time = end - start;
+        
+    } else {
+        NSObject *item = perfDict[@"key"];
+        item = subDict[@"subKey"];
+        NSLog(@"item is %@",item);
+    }
+//    [__thLock unlock];
 }
 
 // 利用runtime获取所有成员变量

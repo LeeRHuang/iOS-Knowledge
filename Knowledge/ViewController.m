@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BlockTest.h"
 #import <objc/runtime.h>
+#import "MemoryAutoReleasePool.h"
 
 @interface ViewController ()
 typedef void (^CustomBlock)(NSString *name);
@@ -79,9 +80,13 @@ typedef void (^CustomBlock)(NSString *name);
     }
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self testIMP];
+    __autoreleasing MemoryAutoReleasePool *pool = [[MemoryAutoReleasePool alloc] init];
+    NSLog(@"%s", __func__);
+
+//    [self testIMP];
 //    BlockTest *block = [[BlockTest alloc] init];
 //    [block testBlock];
 //    
@@ -92,6 +97,11 @@ typedef void (^CustomBlock)(NSString *name);
 //        
 //    };
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
 }
 
 - (NSString *)stringByReverse:(NSMutableString *)str{

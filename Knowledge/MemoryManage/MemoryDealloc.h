@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MemoryDealloc : NSObject
 
 @property (nonatomic, copy) NSString * _Nullable baseName;
+@property (nonatomic, copy) NSString * _Nullable company;
 
 @end
 

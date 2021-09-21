@@ -32,6 +32,11 @@
 #import "MemoryTwo.h"
 #import "MemoryDealloc.h"
 #import "MemoryDeallocSubClass.h"
+#import "MemoryAutoReleasePool.h"
+
+#import "TFDelegateObject.h"
+
+#import "FibonacciObject.h"
 
 @interface AppDelegate ()
 {
@@ -46,10 +51,12 @@
     // Override point for customization after application launch.
     
     // 内存
-    [self testMemory];
+//    [self testMemory];
     // dealloc
-    [self testDealloc];
-    
+//    [self testDealloc];
+    // autoreleasepool
+//    [self testAutoReleasePool];
+    [self testDelegate];
     
 //    Multithreading *threading = [[Multithreading alloc] init];
 //    RuntimeTest *runtime = [[RuntimeTest alloc] init];
@@ -76,6 +83,8 @@
 //    [self testAbstractFactory];
 //    [self adapter];
 //    [self testBridge];
+    
+    [self testAlgorithm];
     return YES;
 }
 
@@ -90,8 +99,29 @@
 }
 
 - (void)testDealloc {
+    // 如果使用__weak修饰，那么引用计数为0，会立刻调用dealloc方法
     MemoryDeallocSubClass *subCls = [MemoryDeallocSubClass new];
     subCls.baseName = @"name";
+//    subCls = nil; // 引用计数置为0
+}
+
+- (void)testAutoReleasePool {
+    MemoryAutoReleasePool *pool = [[MemoryAutoReleasePool alloc] init];
+
+    for (int i = 0; i < 10000000; i++) {
+//            @autoreleasepool {
+                 NSNumber *num = [NSNumber numberWithInt:i];
+                 NSString *str = [NSString stringWithFormat:@"%d ", i];
+                  //Use num and str...whatever...
+                 [NSString stringWithFormat:@"%@%@", num, str];
+//            }
+    }
+}
+
+// delegate
+
+- (void)testDelegate {
+    [TFDelegateObject check_pp];
 }
 
 // block
@@ -195,6 +225,11 @@
     street.bus = [BBus new];
     street.car = [BCar new];
     [street run];
+}
+
+- (void)testAlgorithm {
+    int result = Fibonacci(14);
+    NSLog(@"菲波那切数列值为 : %d",result);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

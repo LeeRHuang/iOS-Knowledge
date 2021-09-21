@@ -12,7 +12,7 @@
 
 - (void)dealloc {
     NSLog(@"BaseModel dealloc");
-    self.baseName = nil;
+//    self.baseName = nil;
 }
 
 - (void)setBaseName:(NSString *)baseName {
