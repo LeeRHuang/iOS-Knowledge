@@ -1,8 +1,6 @@
-
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'Knowledge' do
-
     pod 'SDWebImage'
 
 end

@@ -85,7 +85,6 @@ typedef void (^CustomBlock)(NSString *name);
     [super viewDidLoad];
     __autoreleasing MemoryAutoReleasePool *pool = [[MemoryAutoReleasePool alloc] init];
     NSLog(@"%s", __func__);
-
 //    [self testIMP];
 //    BlockTest *block = [[BlockTest alloc] init];
 //    [block testBlock];

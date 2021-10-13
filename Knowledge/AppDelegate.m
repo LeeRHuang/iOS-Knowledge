@@ -55,8 +55,8 @@
     // dealloc
 //    [self testDealloc];
     // autoreleasepool
-//    [self testAutoReleasePool];
-    [self testDelegate];
+    [self testAutoReleasePool];
+//    [self testDelegate];
     
 //    Multithreading *threading = [[Multithreading alloc] init];
 //    RuntimeTest *runtime = [[RuntimeTest alloc] init];
@@ -84,7 +84,7 @@
 //    [self adapter];
 //    [self testBridge];
     
-    [self testAlgorithm];
+//    [self testAlgorithm];
     return YES;
 }
 
@@ -108,14 +108,12 @@
 - (void)testAutoReleasePool {
     MemoryAutoReleasePool *pool = [[MemoryAutoReleasePool alloc] init];
 
-    for (int i = 0; i < 10000000; i++) {
-//            @autoreleasepool {
-                 NSNumber *num = [NSNumber numberWithInt:i];
-                 NSString *str = [NSString stringWithFormat:@"%d ", i];
-                  //Use num and str...whatever...
-                 [NSString stringWithFormat:@"%@%@", num, str];
-//            }
-    }
+//    for (int i = 0; i < 10e5 * 2; i++) {
+//        @autoreleasepool {
+//            NSString *str = [[NSString alloc] initWithFormat:@"%ld",i];
+//        }
+//    }
+//    NSLog(@"finished!");
 }
 
 // delegate
